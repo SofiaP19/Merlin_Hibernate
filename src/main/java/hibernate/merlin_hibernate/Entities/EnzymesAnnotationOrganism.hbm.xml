@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 21/mar/2018 18:06:36 by Hibernate Tools 5.2.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="merlin_basic2" dynamic-insert="false" dynamic-update="false" mutable="true" name="Entities.EnzymesAnnotationOrganism" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="enzymes_annotation_organism">
+        <id name="SKey" type="java.lang.Integer">
+            <column name="s_key"/>
+            <generator class="identity"/>
+        </id>
+        <property generated="never" lazy="false" name="organism" optimistic-lock="true" type="string" unique="false">
+            <column length="200" name="organism"/>
+        </property>
+        <property generated="never" lazy="false" name="taxonomy" optimistic-lock="true" type="string" unique="false">
+            <column length="65535" name="taxonomy"/>
+        </property>
+        <property generated="never" lazy="false" name="taxRank" optimistic-lock="true" type="java.lang.Integer" unique="false">
+            <column name="taxRank"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 21/mar/2018 18:06:36 by Hibernate Tools 5.2.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="merlin_basic2" dynamic-insert="false" dynamic-update="false" mutable="true" name="Entities.ModelReaction" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="model_reaction">
+        <id name="idreaction" type="java.lang.Integer">
+            <column name="idreaction"/>
+            <generator class="identity"/>
+        </id>
+        <property generated="never" lazy="false" name="name" optimistic-lock="true" type="string" unique="false">
+            <column length="400" name="name"/>
+        </property>
+        <property generated="never" lazy="false" name="equation" optimistic-lock="true" type="string" unique="false">
+            <column length="65535" name="equation"/>
+        </property>
+        <property generated="never" lazy="false" name="reversible" optimistic-lock="true" type="java.lang.Boolean" unique="false">
+            <column name="reversible"/>
+        </property>
+        <property generated="never" lazy="false" name="booleanRule" optimistic-lock="true" type="string" unique="false">
+            <column length="400" name="boolean_rule"/>
+        </property>
+        <property generated="never" lazy="false" name="inModel" optimistic-lock="true" type="java.lang.Boolean" unique="false">
+            <column name="inModel"/>
+        </property>
+        <property generated="never" lazy="false" name="isGeneric" optimistic-lock="true" type="java.lang.Boolean" unique="false">
+            <column name="isGeneric"/>
+        </property>
+        <property generated="never" lazy="false" name="isSpontaneous" optimistic-lock="true" type="java.lang.Boolean" unique="false">
+            <column name="isSpontaneous"/>
+        </property>
+        <property generated="never" lazy="false" name="isNonEnzymatic" optimistic-lock="true" type="java.lang.Boolean" unique="false">
+            <column name="isNonEnzymatic"/>
+        </property>
+        <property generated="never" lazy="false" name="source" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="source" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="originalReaction" optimistic-lock="true" type="boolean" unique="false">
+            <column name="originalReaction" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="compartmentIdcompartment" optimistic-lock="true" type="java.lang.Integer" unique="false">
+            <column name="compartment_idcompartment"/>
+        </property>
+        <property generated="never" lazy="false" name="notes" optimistic-lock="true" type="string" unique="false">
+            <column length="65535" name="notes"/>
+        </property>
+        <property generated="never" lazy="false" name="lowerBound" optimistic-lock="true" type="java.lang.Long" unique="false">
+            <column name="lowerBound"/>
+        </property>
+        <property generated="never" lazy="false" name="upperBound" optimistic-lock="true" type="java.lang.Long" unique="false">
+            <column name="upperBound"/>
+        </property>
+    </class>
+</hibernate-mapping>

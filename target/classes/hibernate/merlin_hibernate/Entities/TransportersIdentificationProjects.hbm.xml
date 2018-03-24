@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 21/mar/2018 18:06:36 by Hibernate Tools 5.2.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="merlin_basic2" dynamic-insert="false" dynamic-update="false" mutable="true" name="Entities.TransportersIdentificationProjects" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="transporters_identification_projects">
+        <id name="id" type="java.lang.Integer">
+            <column name="id"/>
+            <generator class="identity"/>
+        </id>
+        <version generated="never" name="version" type="int" unsaved-value="undefined">
+            <column name="version" not-null="true"/>
+        </version>
+        <property generated="never" lazy="false" name="organismId" optimistic-lock="true" type="int" unique="false">
+            <column name="organism_id" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="latestVersion" optimistic-lock="true" type="boolean" unique="false">
+            <column name="latest_version" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="date" optimistic-lock="true" type="timestamp" unique="false">
+            <column length="19" name="date" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="organismName" optimistic-lock="true" type="string" unique="false">
+            <column length="200" name="organism_name"/>
+        </property>
+        <property generated="never" lazy="false" name="organismLineage" optimistic-lock="true" type="string" unique="false">
+            <column length="1000" name="organism_lineage"/>
+        </property>
+        <property generated="never" lazy="false" name="compartmentsTool" optimistic-lock="true" type="string" unique="false">
+            <column length="60" name="compartments_tool"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 21/mar/2018 18:06:36 by Hibernate Tools 5.2.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="merlin_basic2" dynamic-insert="false" dynamic-update="false" mutable="true" name="Entities.TransportersAnnotationTransportedMetabolitesDirections" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="transporters_annotation_transported_metabolites_directions">
+        <composite-id class="Entities.TransportersAnnotationTransportedMetabolitesDirectionsId" mapped="false" name="id" unsaved-value="undefined">
+            <key-property name="metaboliteId" type="int">
+                <column name="metabolite_id"/>
+            </key-property>
+            <key-property name="directionId" type="int">
+                <column name="direction_id"/>
+            </key-property>
+            <key-property name="transportSystemId" type="int">
+                <column name="transport_system_id"/>
+            </key-property>
+        </composite-id>
+        <property generated="never" lazy="false" name="stoichiometry" optimistic-lock="true" type="int" unique="false">
+            <column name="stoichiometry" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

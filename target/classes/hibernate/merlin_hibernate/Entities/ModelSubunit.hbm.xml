@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 21/mar/2018 18:06:36 by Hibernate Tools 5.2.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="merlin_basic2" dynamic-insert="false" dynamic-update="false" mutable="true" name="Entities.ModelSubunit" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="model_subunit">
+        <composite-id class="Entities.ModelSubunitId" mapped="false" name="id" unsaved-value="undefined">
+            <key-property name="geneIdgene" type="int">
+                <column name="gene_idgene"/>
+            </key-property>
+            <key-property name="enzymeProteinIdprotein" type="int">
+                <column name="enzyme_protein_idprotein"/>
+            </key-property>
+            <key-property name="enzymeEcnumber" type="string">
+                <column length="15" name="enzyme_ecnumber"/>
+            </key-property>
+            <key-property name="moduleId" type="java.lang.Integer">
+                <column name="module_id"/>
+            </key-property>
+            <key-property name="proteinComplexIdproteinComplex" type="java.lang.Integer">
+                <column name="protein_complex_idprotein_complex"/>
+            </key-property>
+            <key-property name="note" type="string">
+                <column length="45" name="note"/>
+            </key-property>
+            <key-property name="gprStatus" type="string">
+                <column length="45" name="gpr_status"/>
+            </key-property>
+        </composite-id>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 21/mar/2018 18:06:36 by Hibernate Tools 5.2.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="merlin_basic2" dynamic-insert="false" dynamic-update="false" mutable="true" name="Entities.ModelCompound" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="model_compound">
+        <id name="idcompound" type="java.lang.Integer">
+            <column name="idcompound"/>
+            <generator class="identity"/>
+        </id>
+        <property generated="never" lazy="false" name="name" optimistic-lock="true" type="string" unique="false">
+            <column length="400" name="name"/>
+        </property>
+        <property generated="never" lazy="false" name="inchi" optimistic-lock="true" type="string" unique="false">
+            <column length="1500" name="inchi"/>
+        </property>
+        <property generated="never" lazy="false" name="keggId" optimistic-lock="true" type="string" unique="false">
+            <column length="15" name="kegg_id"/>
+        </property>
+        <property generated="never" lazy="false" name="entryType" optimistic-lock="true" type="string" unique="false">
+            <column length="9" name="entry_type"/>
+        </property>
+        <property generated="never" lazy="false" name="formula" optimistic-lock="true" type="string" unique="false">
+            <column length="65535" name="formula"/>
+        </property>
+        <property generated="never" lazy="false" name="molecularWeight" optimistic-lock="true" type="string" unique="false">
+            <column length="100" name="molecular_weight"/>
+        </property>
+        <property generated="never" lazy="false" name="neutralFormula" optimistic-lock="true" type="string" unique="false">
+            <column length="120" name="neutral_formula"/>
+        </property>
+        <property generated="never" lazy="false" name="charge" optimistic-lock="true" type="java.lang.Short" unique="false">
+            <column name="charge"/>
+        </property>
+        <property generated="never" lazy="false" name="smiles" optimistic-lock="true" type="string" unique="false">
+            <column length="1200" name="smiles"/>
+        </property>
+        <property generated="never" lazy="false" name="hasBiologicalRoles" optimistic-lock="true" type="java.lang.Boolean" unique="false">
+            <column name="hasBiologicalRoles"/>
+        </property>
+    </class>
+</hibernate-mapping>

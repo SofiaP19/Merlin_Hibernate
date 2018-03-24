@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 21/mar/2018 18:06:36 by Hibernate Tools 5.2.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="merlin_basic2" dynamic-insert="false" dynamic-update="false" mutable="true" name="Entities.ModelProtein" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="model_protein">
+        <id name="idprotein" type="java.lang.Integer">
+            <column name="idprotein"/>
+            <generator class="identity"/>
+        </id>
+        <property generated="never" lazy="false" name="name" optimistic-lock="true" type="string" unique="false">
+            <column length="400" name="name" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="class_" optimistic-lock="true" type="string" unique="false">
+            <column length="120" name="class"/>
+        </property>
+        <property generated="never" lazy="false" name="inchi" optimistic-lock="true" type="string" unique="false">
+            <column name="inchi"/>
+        </property>
+        <property generated="never" lazy="false" name="molecularWeight" optimistic-lock="true" type="java.lang.Float" unique="false">
+            <column name="molecular_weight" precision="12" scale="0"/>
+        </property>
+        <property generated="never" lazy="false" name="molecularWeightExp" optimistic-lock="true" type="java.lang.Float" unique="false">
+            <column name="molecular_weight_exp" precision="12" scale="0"/>
+        </property>
+        <property generated="never" lazy="false" name="molecularWeightKd" optimistic-lock="true" type="java.lang.Float" unique="false">
+            <column name="molecular_weight_kd" precision="12" scale="0"/>
+        </property>
+        <property generated="never" lazy="false" name="molecularWeightSeq" optimistic-lock="true" type="java.lang.Float" unique="false">
+            <column name="molecular_weight_seq" precision="12" scale="0"/>
+        </property>
+        <property generated="never" lazy="false" name="pi" optimistic-lock="true" type="java.lang.Float" unique="false">
+            <column name="pi" precision="12" scale="0"/>
+        </property>
+    </class>
+</hibernate-mapping>
