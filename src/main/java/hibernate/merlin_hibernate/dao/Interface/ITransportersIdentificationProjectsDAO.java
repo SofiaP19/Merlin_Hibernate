@@ -6,19 +6,19 @@ import hibernate.merlin_hibernate.Entities.TransportersIdentificationProjects;
 
 public interface ITransportersIdentificationProjectsDAO {
 	
-	public void addProject(TransportersIdentificationProjects project); //adiciona um projeto
+	public void addTransportersIdentificationProject(TransportersIdentificationProjects project); //adiciona um projeto
 	
-	public void addProjects(List<TransportersIdentificationProjects> projects); //adiciona projetos
+	public void addTransportersIdentificationProjects(List<TransportersIdentificationProjects> projects); //adiciona projetos
 	
-	public List<TransportersIdentificationProjects> getAllProjects(); //retorna os projetos
+	public List<TransportersIdentificationProjects> getAllTransportersIdentificationProjects(); //retorna os projetos
 	
-	public TransportersIdentificationProjects getProject(Integer id); //retorna um projeto
+	public TransportersIdentificationProjects getTransportersIdentificationProject(Integer id); //retorna um projeto
 	
-	public void removeProject(TransportersIdentificationProjects project); //remove um projeto
+	public void removeTransportersIdentificationProject(TransportersIdentificationProjects project); //remove um projeto
 	
-	public void removeProjects(List<TransportersIdentificationProjects> project); //remove projetos
+	public void removeTransportersIdentificationProjects(List<TransportersIdentificationProjects> project); //remove projetos
 	
-	public void updateProjects(List<TransportersIdentificationProjects> projects); //update de um projeto
+	public void updateTransportersIdentificationProjects(List<TransportersIdentificationProjects> projects); //update de um projeto
 	
-	public void updateProject(TransportersIdentificationProjects project);
+	public void updateTransportersIdentificationProject(TransportersIdentificationProjects project);
 }

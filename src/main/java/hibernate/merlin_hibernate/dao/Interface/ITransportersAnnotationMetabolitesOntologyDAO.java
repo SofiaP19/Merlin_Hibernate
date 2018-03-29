@@ -1,0 +1,26 @@
+package hibernate.merlin_hibernate.dao.Interface;
+
+import java.util.List;
+
+import hibernate.merlin_hibernate.Entities.TransportersAnnotationMetabolitesOntology;
+
+
+public interface ITransportersAnnotationMetabolitesOntologyDAO {
+	
+	public void addTransportersAnnotationMetabolitesOntology(TransportersAnnotationMetabolitesOntology TransportersAnnotationMetabolitesOntology); 
+	
+	public void addTTransportersAnnotationMetabolitesOntologyList(List<TransportersAnnotationMetabolitesOntology> TransportersAnnotationMetabolitesOntologyList); 
+	
+	public List<TransportersAnnotationMetabolitesOntology> getAllTransportersAnnotationMetabolitesOntology(); 
+	
+	public TransportersAnnotationMetabolitesOntology getTransportersAnnotationMetabolitesOntology(Integer id); 
+	
+	public void removeTransportersAnnotationMetabolitesOntology(TransportersAnnotationMetabolitesOntology TransportersAnnotationMetabolitesOntology); 
+	
+	public void removeTransportersAnnotationMetabolitesOntologyList(List<TransportersAnnotationMetabolitesOntology> TransportersAnnotationMetabolitesOntologyList); 
+	
+	public void updateTransportersAnnotationMetabolitesOntologyList(List<TransportersAnnotationMetabolitesOntology> TransportersAnnotationMetabolitesOntologyList); 
+	
+	public void updateTransportersAnnotationMetabolitesOntology(TransportersAnnotationMetabolitesOntology TransportersAnnotationMetabolitesOntology);
+
+}

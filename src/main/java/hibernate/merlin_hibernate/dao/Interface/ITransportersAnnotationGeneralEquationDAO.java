@@ -1,0 +1,26 @@
+package hibernate.merlin_hibernate.dao.Interface;
+
+import java.util.List;
+
+import hibernate.merlin_hibernate.Entities.TransportersAnnotationGeneralEquation;
+
+
+public interface ITransportersAnnotationGeneralEquationDAO {
+	
+	public void addTransportersAnnotationGeneralEquation(TransportersAnnotationGeneralEquation TransportersAnnotationGeneralEquation); 
+	
+	public void addTransportersAnnotationGeneralEquations(List<TransportersAnnotationGeneralEquation> TransportersAnnotationGeneralEquations); 
+	
+	public List<TransportersAnnotationGeneralEquation> getAllTransportersAnnotationGeneralEquations(); 
+	
+	public TransportersAnnotationGeneralEquation getTransportersAnnotationGeneralEquation(Integer id); 
+	
+	public void removeTransportersAnnotationGeneralEquation(TransportersAnnotationGeneralEquation TransportersAnnotationGeneralEquation); 
+	
+	public void removeTransportersAnnotationGeneralEquations(List<TransportersAnnotationGeneralEquation> TransportersAnnotationGeneralEquations); 
+	
+	public void updateTransportersAnnotationGeneralEquations(List<TransportersAnnotationGeneralEquation> TransportersAnnotationGeneralEquations); 
+	
+	public void updateTransportersAnnotationGeneralEquation(TransportersAnnotationGeneralEquation TransportersAnnotationGeneralEquation);
+
+}

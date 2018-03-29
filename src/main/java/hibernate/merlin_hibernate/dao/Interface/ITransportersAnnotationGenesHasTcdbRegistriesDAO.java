@@ -1,0 +1,27 @@
+package hibernate.merlin_hibernate.dao.Interface;
+
+import java.util.List;
+
+import hibernate.merlin_hibernate.Entities.TransportersAnnotationGenesHasTcdbRegistries;
+
+
+
+public interface ITransportersAnnotationGenesHasTcdbRegistriesDAO {
+	
+	public void addTransportersAnnotationGenesHasTcdbRegistry(TransportersAnnotationGenesHasTcdbRegistries TransportersAnnotationGenesHasTcdbRegistry); 
+	
+	public void addTransportersAnnotationGenesHasTcdbRegistries(List<TransportersAnnotationGenesHasTcdbRegistries> TransportersAnnotationGenesHasTcdbRegistries); 
+	
+	public List<TransportersAnnotationGenesHasTcdbRegistries> getAllTransportersAnnotationGenesHasTcdbRegistries(); 
+	
+	public TransportersAnnotationGenesHasTcdbRegistries getTransportersAnnotationGenesHasTcdbRegistry(Integer id); 
+	
+	public void removeTransportersAnnotationGenesHasTcdbRegistry(TransportersAnnotationGenesHasTcdbRegistries TransportersAnnotationGenesHasTcdbRegistry); 
+	
+	public void removeTransportersAnnotationGenesHasTcdbRegistries(List<TransportersAnnotationGenesHasTcdbRegistries> TransportersAnnotationGenesHasTcdbRegistries); 
+	
+	public void updateTransportersAnnotationGenesHasTcdbRegistries(List<TransportersAnnotationGenesHasTcdbRegistries> TransportersAnnotationGenesHasTcdbRegistries); 
+	
+	public void updateTransportersAnnotationGenesHasTcdbRegistry(TransportersAnnotationGenesHasTcdbRegistries TransportersAnnotationGenesHasTcdbRegistry);
+
+}

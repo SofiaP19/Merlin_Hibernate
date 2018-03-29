@@ -1,0 +1,62 @@
+package hibernate.merlin_hibernate.dao.implementation;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+
+import hibernate.merlin_hibernate.Entities.TransportersAnnotationTcNumbersHasTransportSystems;
+import hibernate.merlin_hibernate.dao.Interface.ITransportersAnnotationTcNumbersHasTransportSystemsDAO;
+
+
+public class TransportersAnnotationTcNumbersHasTransportSystemsDAOImpl extends GenericDaoImpl<TransportersAnnotationTcNumbersHasTransportSystems> implements ITransportersAnnotationTcNumbersHasTransportSystemsDAO{
+
+	public TransportersAnnotationTcNumbersHasTransportSystemsDAOImpl(SessionFactory sessionFactory) {
+		super(sessionFactory, TransportersAnnotationTcNumbersHasTransportSystems.class);
+	
+	}
+
+	public void addTransportersAnnotationTcNumbersHasTransportSystem(TransportersAnnotationTcNumbersHasTransportSystems TransportersAnnotationTcNumbersHasTransportSystem) {
+		super.save(TransportersAnnotationTcNumbersHasTransportSystem);
+	}
+
+	public void addTransportersAnnotationTcNumbersHasTransportSystems(List<TransportersAnnotationTcNumbersHasTransportSystems> TransportersAnnotationTcNumbersHasTransportSystems) {
+		for (TransportersAnnotationTcNumbersHasTransportSystems TransportersAnnotationTcNumbersHasTransportSystem: TransportersAnnotationTcNumbersHasTransportSystems) {
+			this.addTransportersAnnotationTcNumbersHasTransportSystem(TransportersAnnotationTcNumbersHasTransportSystem);
+		}
+		
+	}
+
+	public List<TransportersAnnotationTcNumbersHasTransportSystems> getAllTransportersAnnotationTcNumbersHasTransportSystems() {
+		return super.findAll();
+	}
+
+	public TransportersAnnotationTcNumbersHasTransportSystems getTransportersAnnotationTcNumbersHasTransportSystems(Integer id) {
+		return super.findById(id);
+	}
+
+	public void removeTransportersAnnotationTcNumbersHasTransportSystem(TransportersAnnotationTcNumbersHasTransportSystems TransportersAnnotationTcNumbersHasTransportSystem) {
+		super.delete(TransportersAnnotationTcNumbersHasTransportSystem);
+		
+	}
+
+	public void removeTransportersAnnotationTcNumbersHasTransportSystems(List<TransportersAnnotationTcNumbersHasTransportSystems> TransportersAnnotationTcNumbersHasTransportSystems) {
+		for (TransportersAnnotationTcNumbersHasTransportSystems TransportersAnnotationTcNumbersHasTransportSystem: TransportersAnnotationTcNumbersHasTransportSystems) {
+			this.removeTransportersAnnotationTcNumbersHasTransportSystem(TransportersAnnotationTcNumbersHasTransportSystem);
+		}
+		
+	}
+
+	public void updateTransportersAnnotationTcNumbersHasTransportSystems(List<TransportersAnnotationTcNumbersHasTransportSystems> TransportersAnnotationTcNumbersHasTransportSystems) {
+		for (TransportersAnnotationTcNumbersHasTransportSystems TransportersAnnotationTcNumbersHasTransportSystem: TransportersAnnotationTcNumbersHasTransportSystems) {
+			this.update(TransportersAnnotationTcNumbersHasTransportSystem);
+		}
+		
+		
+	}
+
+	public void updateTransportersAnnotationTcNumbersHasTransportSystem(TransportersAnnotationTcNumbersHasTransportSystems TransportersAnnotationTcNumbersHasTransportSystem) {
+		super.update(TransportersAnnotationTcNumbersHasTransportSystem);
+		
+	}
+
+}

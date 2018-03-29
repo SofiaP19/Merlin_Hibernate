@@ -1,0 +1,63 @@
+package hibernate.merlin_hibernate.dao.implementation;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+
+import hibernate.merlin_hibernate.Entities.TransportersAnnotationTransportedMetabolitesDirections;
+import hibernate.merlin_hibernate.dao.Interface.ITransportersAnnotationTransportedMetabolitesDirectionsDAO;
+
+
+public class TransportersAnnotationTransportedMetabolitesDirectionsDAOImpl extends GenericDaoImpl<TransportersAnnotationTransportedMetabolitesDirections> implements ITransportersAnnotationTransportedMetabolitesDirectionsDAO{
+
+	public TransportersAnnotationTransportedMetabolitesDirectionsDAOImpl(SessionFactory sessionFactory) {
+		super(sessionFactory, TransportersAnnotationTransportedMetabolitesDirections.class);
+		
+	}
+
+	public void addTransportersAnnotationTransportedMetabolitesDirection(
+			TransportersAnnotationTransportedMetabolitesDirections TransportersAnnotationTransportedMetabolitesDirection) {
+		super.save(TransportersAnnotationTransportedMetabolitesDirection);
+		
+	}
+
+	public void addTransportersAnnotationTransportedMetabolitesDirections(List<TransportersAnnotationTransportedMetabolitesDirections> TransportersAnnotationTransportedMetabolitesDirections) {
+		for (TransportersAnnotationTransportedMetabolitesDirections TransportersAnnotationTransportType: TransportersAnnotationTransportedMetabolitesDirections) {
+			this.addTransportersAnnotationTransportedMetabolitesDirection(TransportersAnnotationTransportType);
+		}
+		
+	}
+
+	public List<TransportersAnnotationTransportedMetabolitesDirections> getAllTransportersAnnotationTransportedMetabolitesDirections() {
+		return super.findAll();
+	}
+
+	public TransportersAnnotationTransportedMetabolitesDirections getTransportersAnnotationTransportedMetabolitesDirections(Integer id) {
+		return super.findById(id);
+	}
+
+	public void removeTransportersAnnotationTransportedMetabolitesDirection(TransportersAnnotationTransportedMetabolitesDirections TransportersAnnotationTransportedMetabolitesDirection) {
+		super.delete(TransportersAnnotationTransportedMetabolitesDirection);
+		
+	}
+
+	public void removeTransportersAnnotationTransportedMetabolitesDirections(List<TransportersAnnotationTransportedMetabolitesDirections> TransportersAnnotationTransportedMetabolitesDirections) {
+		for (TransportersAnnotationTransportedMetabolitesDirections TransportersAnnotationTransportedMetabolitesDirection: TransportersAnnotationTransportedMetabolitesDirections) {
+			this.removeTransportersAnnotationTransportedMetabolitesDirection(TransportersAnnotationTransportedMetabolitesDirection);
+		}
+		
+	}
+
+	public void updateTransportersAnnotationTransportedMetabolitesDirections(List<TransportersAnnotationTransportedMetabolitesDirections> TransportersAnnotationTransportedMetabolitesDirections) {
+		for (TransportersAnnotationTransportedMetabolitesDirections TransportersAnnotationTransportedMetabolitesDirection: TransportersAnnotationTransportedMetabolitesDirections) {
+			this.update(TransportersAnnotationTransportedMetabolitesDirection);
+		}
+		
+	}
+
+	public void updateTransportersAnnotationTransportedMetabolitesDirection(TransportersAnnotationTransportedMetabolitesDirections TransportersAnnotationTransportedMetabolitesDirection) {
+		super.update(TransportersAnnotationTransportedMetabolitesDirection);
+		
+	}
+
+}

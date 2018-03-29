@@ -1,0 +1,27 @@
+package hibernate.merlin_hibernate.dao.Interface;
+
+import java.util.List;
+
+import hibernate.merlin_hibernate.Entities.TransportersAnnotationGenesHasMetabolites;
+
+
+
+public interface ITransportersAnnotationGenesHasMetabolitesDAO {
+	
+	public void addTransportersAnnotationGenesHasMetabolite(TransportersAnnotationGenesHasMetabolites TransportersAnnotationGenesHasMetabolite); 
+	
+	public void addTransportersAnnotationGenesHasMetabolites(List<TransportersAnnotationGenesHasMetabolites> TransportersAnnotationGenesHasMetabolites); 
+	
+	public List<TransportersAnnotationGenesHasMetabolites> getAllTransportersAnnotationGenesHasMetabolites(); 
+	
+	public TransportersAnnotationGenesHasMetabolites getTransportersAnnotationGenesHasMetabolite(Integer id); 
+	
+	public void removeTransportersAnnotationGenesHasMetabolite(TransportersAnnotationGenesHasMetabolites TransportersAnnotationGenesHasMetabolite); 
+	
+	public void removeTransportersAnnotationGenesHasMetabolites(List<TransportersAnnotationGenesHasMetabolites> TransportersAnnotationGenesHasMetabolites); 
+	
+	public void updateTransportersAnnotationGenesHasMetabolites(List<TransportersAnnotationGenesHasMetabolites> TransportersAnnotationGenesHasMetabolites); 
+	
+	public void updateTransportersAnnotationGenesHasMetabolite(TransportersAnnotationGenesHasMetabolites TransportersAnnotationGenesHasMetabolite);
+
+}

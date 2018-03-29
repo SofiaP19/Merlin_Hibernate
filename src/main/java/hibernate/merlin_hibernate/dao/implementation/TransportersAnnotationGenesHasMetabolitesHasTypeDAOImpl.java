@@ -1,0 +1,60 @@
+package hibernate.merlin_hibernate.dao.implementation;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+
+import hibernate.merlin_hibernate.Entities.TransportersAnnotationGenesHasMetabolitesHasType;
+import hibernate.merlin_hibernate.dao.Interface.ITransportersAnnotationGenesHasMetabolitesHasTypeDAO;
+
+
+public class TransportersAnnotationGenesHasMetabolitesHasTypeDAOImpl extends GenericDaoImpl<TransportersAnnotationGenesHasMetabolitesHasType> implements ITransportersAnnotationGenesHasMetabolitesHasTypeDAO{
+
+	public TransportersAnnotationGenesHasMetabolitesHasTypeDAOImpl(SessionFactory sessionFactory) {
+		super(sessionFactory, TransportersAnnotationGenesHasMetabolitesHasType.class);
+
+	}
+
+	public void addTransportersAnnotationGenesHasMetabolitesHasType(TransportersAnnotationGenesHasMetabolitesHasType transportersAnnotationGenesHasMetabolitesHasType) {
+		super.save(transportersAnnotationGenesHasMetabolitesHasType);
+		
+	}
+	
+	public void addTransportersAnnotationGenesHasMetabolitesHasTypeList(List<TransportersAnnotationGenesHasMetabolitesHasType> TransportersAnnotationGenesHasMetabolitesHasTypeList) {
+		for (TransportersAnnotationGenesHasMetabolitesHasType TransportersAnnotationGenesHasMetabolitesHasType: TransportersAnnotationGenesHasMetabolitesHasTypeList) {
+			this.addTransportersAnnotationGenesHasMetabolitesHasType(TransportersAnnotationGenesHasMetabolitesHasType);
+		}
+		
+	}
+	public List<TransportersAnnotationGenesHasMetabolitesHasType> getAllTransportersAnnotationGenesHasMetabolitesHasType() {
+		return super.findAll();
+	}
+
+	public TransportersAnnotationGenesHasMetabolitesHasType getTransportersAnnotationGenesHasMetabolitesHasType(Integer id) {
+		return super.findById(id);
+	}
+
+	public void removeTransportersAnnotationGenesHasMetabolitesHasType(TransportersAnnotationGenesHasMetabolitesHasType TransportersAnnotationGenesHasMetabolitesHasType) {
+		super.delete(TransportersAnnotationGenesHasMetabolitesHasType);
+		
+	}
+
+	public void removeTransportersAnnotationGenesHasMetabolitesHasTypeList(List<TransportersAnnotationGenesHasMetabolitesHasType> TransportersAnnotationGenesHasMetabolitesHasTypeList) {
+		for (TransportersAnnotationGenesHasMetabolitesHasType TransportersAnnotationGenesHasMetabolitesHasType: TransportersAnnotationGenesHasMetabolitesHasTypeList) {
+			this.removeTransportersAnnotationGenesHasMetabolitesHasType(TransportersAnnotationGenesHasMetabolitesHasType);
+		}
+		
+	}
+
+	public void updateTransportersAnnotationGenesHasMetabolitesHasTypeList(List<TransportersAnnotationGenesHasMetabolitesHasType> TransportersAnnotationGenesHasMetabolitesHasTypeList) {
+		for (TransportersAnnotationGenesHasMetabolitesHasType TransportersAnnotationGenesHasMetabolitesHasType: TransportersAnnotationGenesHasMetabolitesHasTypeList) {
+			this.update(TransportersAnnotationGenesHasMetabolitesHasType);
+		}
+		
+	}
+
+	public void updateTransportersAnnotationGenesHasMetabolitesHasType(TransportersAnnotationGenesHasMetabolitesHasType TransportersAnnotationGenesHasMetabolitesHasType) {
+		super.update(TransportersAnnotationGenesHasMetabolitesHasType);
+	}
+
+}
