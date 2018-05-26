@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 21/mar/2018 18:06:36 by Hibernate Tools 5.2.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="merlin_basic2" dynamic-insert="false" dynamic-update="false" mutable="true" name="Entities.TransportersAnnotationMetabolites" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="transporters_annotation_metabolites">
+        <id name="id" type="java.lang.Integer">
+            <column name="id"/>
+            <generator class="identity"/>
+        </id>
+        <property generated="never" lazy="false" name="name" optimistic-lock="true" type="string" unique="false">
+            <column length="500" name="name" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="keggMiriam" optimistic-lock="true" type="string" unique="false">
+            <column length="100" name="kegg_miriam"/>
+        </property>
+        <property generated="never" lazy="false" name="keggName" optimistic-lock="true" type="string" unique="false">
+            <column length="500" name="kegg_name"/>
+        </property>
+        <property generated="never" lazy="false" name="chebiMiriam" optimistic-lock="true" type="string" unique="false">
+            <column length="100" name="chebi_miriam"/>
+        </property>
+        <property generated="never" lazy="false" name="chebiName" optimistic-lock="true" type="string" unique="false">
+            <column length="500" name="chebi_name"/>
+        </property>
+        <property generated="never" lazy="false" name="datatype" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="datatype" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="keggFormula" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="kegg_formula"/>
+        </property>
+        <property generated="never" lazy="false" name="chebiFormula" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="chebi_formula"/>
+        </property>
+    </class>
+</hibernate-mapping>

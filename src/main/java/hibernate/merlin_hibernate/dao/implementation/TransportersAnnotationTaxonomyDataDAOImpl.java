@@ -15,14 +15,14 @@ public class TransportersAnnotationTaxonomyDataDAOImpl extends GenericDaoImpl<Tr
 		
 	}
 
-	public void addTransportersAnnotationTaxonomyData(TransportersAnnotationTaxonomyData TransportersAnnotationTaxonomyData) {
-		super.save(TransportersAnnotationTaxonomyData);
+	public void addTransportersAnnotationTaxonomyData(TransportersAnnotationTaxonomyData transportersAnnotationTaxonomyData) {
+		super.save(transportersAnnotationTaxonomyData);
 		
 	}
 
-	public void addTransportersAnnotationTaxonomyListData(List<TransportersAnnotationTaxonomyData> TransportersAnnotationTaxonomyData) {
-		for (TransportersAnnotationTaxonomyData TransportersAnnotTaxonomyData: TransportersAnnotationTaxonomyData) {
-			this.addTransportersAnnotationTaxonomyData(TransportersAnnotTaxonomyData);
+	public void addTransportersAnnotationTaxonomyListData(List<TransportersAnnotationTaxonomyData> transportersAnnotationTaxonomyData) {
+		for (TransportersAnnotationTaxonomyData transportersAnnotTaxonomyData: transportersAnnotationTaxonomyData) {
+			this.addTransportersAnnotationTaxonomyData(transportersAnnotTaxonomyData);
 		}
 	}
 
@@ -34,27 +34,27 @@ public class TransportersAnnotationTaxonomyDataDAOImpl extends GenericDaoImpl<Tr
 		return super.findById(id);
 	}
 
-	public void removeTransportersAnnotationTaxonomyData(TransportersAnnotationTaxonomyData TransportersAnnotationTaxonomyData) {
-		super.delete(TransportersAnnotationTaxonomyData);
+	public void removeTransportersAnnotationTaxonomyData(TransportersAnnotationTaxonomyData transportersAnnotationTaxonomyData) {
+		super.delete(transportersAnnotationTaxonomyData);
 		
 	}
 
-	public void removeTransportersAnnotationTaxonomyListData(List<TransportersAnnotationTaxonomyData> TransportersAnnotationTaxonomyData) {
-		for (TransportersAnnotationTaxonomyData TransportersAnnotTaxonomyData: TransportersAnnotationTaxonomyData) {
-			this.removeTransportersAnnotationTaxonomyData(TransportersAnnotTaxonomyData);
+	public void removeTransportersAnnotationTaxonomyListData(List<TransportersAnnotationTaxonomyData> transportersAnnotationTaxonomyData) {
+		for (TransportersAnnotationTaxonomyData transportersAnnotTaxonomyData: transportersAnnotationTaxonomyData) {
+			this.removeTransportersAnnotationTaxonomyData(transportersAnnotTaxonomyData);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationTaxonomyListData(List<TransportersAnnotationTaxonomyData> TransportersAnnotationTaxonomyData) {
-		for (TransportersAnnotationTaxonomyData TransportersAnnotTaxonomyData: TransportersAnnotationTaxonomyData) {
-			this.update(TransportersAnnotTaxonomyData);
+	public void updateTransportersAnnotationTaxonomyListData(List<TransportersAnnotationTaxonomyData> transportersAnnotationTaxonomyData) {
+		for (TransportersAnnotationTaxonomyData transportersAnnotTaxonomyData: transportersAnnotationTaxonomyData) {
+			this.update(transportersAnnotTaxonomyData);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationTaxonomyData(TransportersAnnotationTaxonomyData TransportersAnnotationTaxonomyData) {
-		super.update(TransportersAnnotationTaxonomyData);
+	public void updateTransportersAnnotationTaxonomyData(TransportersAnnotationTaxonomyData transportersAnnotationTaxonomyData) {
+		super.update(transportersAnnotationTaxonomyData);
 		
 	}
 

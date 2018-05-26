@@ -15,14 +15,14 @@ public class TransportersAnnotationTransportTypesDAOImpl extends GenericDaoImpl<
 		
 	}
 
-	public void addTransportersAnnotationTransportTypes(TransportersAnnotationTransportTypes TransportersAnnotationTransportType) {
-			super.save(TransportersAnnotationTransportType);
+	public void addTransportersAnnotationTransportTypes(TransportersAnnotationTransportTypes transportersAnnotationTransportType) {
+			super.save(transportersAnnotationTransportType);
 		
 	}
 
-	public void addTransportersAnnotationTransportTypes(List<TransportersAnnotationTransportTypes> TransportersAnnotationTransportTypes) {
-		for (TransportersAnnotationTransportTypes TransportersAnnotationTransportType: TransportersAnnotationTransportTypes) {
-			this.addTransportersAnnotationTransportTypes(TransportersAnnotationTransportType);
+	public void addTransportersAnnotationTransportTypes(List<TransportersAnnotationTransportTypes> transportersAnnotationTransportTypes) {
+		for (TransportersAnnotationTransportTypes transportersAnnotationTransportType: transportersAnnotationTransportTypes) {
+			this.addTransportersAnnotationTransportTypes(transportersAnnotationTransportType);
 		}
 		
 	}
@@ -35,27 +35,27 @@ public class TransportersAnnotationTransportTypesDAOImpl extends GenericDaoImpl<
 		return super.findById(id);
 	}
 
-	public void removeTransportersAnnotationTransportTypes(TransportersAnnotationTransportTypes TransportersAnnotationTransportType) {
-		super.delete(TransportersAnnotationTransportType);
+	public void removeTransportersAnnotationTransportTypes(TransportersAnnotationTransportTypes transportersAnnotationTransportType) {
+		super.delete(transportersAnnotationTransportType);
 		
 	}
 
-	public void removeTransportersAnnotationTransportTypes(List<TransportersAnnotationTransportTypes> TransportersAnnotationTransportTypes) {
-		for (TransportersAnnotationTransportTypes TransportersAnnotationTransportType: TransportersAnnotationTransportTypes) {
-			this.removeTransportersAnnotationTransportTypes(TransportersAnnotationTransportType);
+	public void removeTransportersAnnotationTransportTypes(List<TransportersAnnotationTransportTypes> transportersAnnotationTransportTypes) {
+		for (TransportersAnnotationTransportTypes transportersAnnotationTransportType: transportersAnnotationTransportTypes) {
+			this.removeTransportersAnnotationTransportTypes(transportersAnnotationTransportType);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationTransportTypes(List<TransportersAnnotationTransportTypes> TransportersAnnotationTransportTypes) {
-		for (TransportersAnnotationTransportTypes TransportersAnnotationTransportType: TransportersAnnotationTransportTypes) {
-			this.update(TransportersAnnotationTransportType);
+	public void updateTransportersAnnotationTransportTypes(List<TransportersAnnotationTransportTypes> transportersAnnotationTransportTypes) {
+		for (TransportersAnnotationTransportTypes transportersAnnotationTransportType: transportersAnnotationTransportTypes) {
+			this.update(transportersAnnotationTransportType);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationTransportTypes(TransportersAnnotationTransportTypes TransportersAnnotationTransportType) {
-		super.update(TransportersAnnotationTransportType);
+	public void updateTransportersAnnotationTransportTypes(TransportersAnnotationTransportTypes transportersAnnotationTransportType) {
+		super.update(transportersAnnotationTransportType);
 		
 	}
 

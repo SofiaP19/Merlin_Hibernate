@@ -15,14 +15,14 @@ public class TransportersAnnotationSynonymsDAOImpl extends GenericDaoImpl<Transp
 		
 	}
 
-	public void addTransportersAnnotationSynonym(TransportersAnnotationSynonyms TransportersAnnotationSynonym) {
-		super.save(TransportersAnnotationSynonym);
+	public void addTransportersAnnotationSynonym(TransportersAnnotationSynonyms transportersAnnotationSynonym) {
+		super.save(transportersAnnotationSynonym);
 		
 	}
 
-	public void addTransportersAnnotationSynonyms(List<TransportersAnnotationSynonyms> TransportersAnnotationSynonyms) {
-		for (TransportersAnnotationSynonyms TransportersAnnotationSynonym: TransportersAnnotationSynonyms) {
-			this.addTransportersAnnotationSynonym(TransportersAnnotationSynonym);
+	public void addTransportersAnnotationSynonyms(List<TransportersAnnotationSynonyms> transportersAnnotationSynonyms) {
+		for (TransportersAnnotationSynonyms transportersAnnotationSynonym: transportersAnnotationSynonyms) {
+			this.addTransportersAnnotationSynonym(transportersAnnotationSynonym);
 		}
 		
 	}
@@ -35,27 +35,27 @@ public class TransportersAnnotationSynonymsDAOImpl extends GenericDaoImpl<Transp
 		return super.findById(id);
 	}
 
-	public void removeTransportersAnnotationSynonym(TransportersAnnotationSynonyms TransportersAnnotationSynonym) {
-		super.delete(TransportersAnnotationSynonym);
+	public void removeTransportersAnnotationSynonym(TransportersAnnotationSynonyms transportersAnnotationSynonym) {
+		super.delete(transportersAnnotationSynonym);
 		
 	}
 
-	public void removeTransportersAnnotationSynonyms(List<TransportersAnnotationSynonyms> TransportersAnnotationSynonyms) {
-		for (TransportersAnnotationSynonyms TransportersAnnotationSynonym: TransportersAnnotationSynonyms) {
-			this.removeTransportersAnnotationSynonym(TransportersAnnotationSynonym);
+	public void removeTransportersAnnotationSynonyms(List<TransportersAnnotationSynonyms> transportersAnnotationSynonyms) {
+		for (TransportersAnnotationSynonyms transportersAnnotationSynonym: transportersAnnotationSynonyms) {
+			this.removeTransportersAnnotationSynonym(transportersAnnotationSynonym);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationSynonyms(List<TransportersAnnotationSynonyms> TransportersAnnotationSynonyms) {
-		for (TransportersAnnotationSynonyms TransportersAnnotationSynonym: TransportersAnnotationSynonyms) {
-			this.update(TransportersAnnotationSynonym);
+	public void updateTransportersAnnotationSynonyms(List<TransportersAnnotationSynonyms> transportersAnnotationSynonyms) {
+		for (TransportersAnnotationSynonyms transportersAnnotationSynonym: transportersAnnotationSynonyms) {
+			this.update(transportersAnnotationSynonym);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationSynonym(TransportersAnnotationSynonyms TransportersAnnotationSynonym) {
-		super.update(TransportersAnnotationSynonym);
+	public void updateTransportersAnnotationSynonym(TransportersAnnotationSynonyms transportersAnnotationSynonym) {
+		super.update(transportersAnnotationSynonym);
 		
 	}
 

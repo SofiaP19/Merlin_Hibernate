@@ -8,20 +8,20 @@ import hibernate.merlin_hibernate.Entities.TransportersAnnotationMetabolites;
 
 public interface ITransportersAnnotationMetabolitesDAO {
 	
-	public void addTransportersAnnotationMetabolite(TransportersAnnotationMetabolites TransportersAnnotationMetabolite); 
+	public void addTransportersAnnotationMetabolite(TransportersAnnotationMetabolites transportersAnnotationMetabolite); 
 	
-	public void addTransportersAnnotationMetabolites(List<TransportersAnnotationMetabolites> TransportersAnnotationMetabolites); 
+	public void addTransportersAnnotationMetabolites(List<TransportersAnnotationMetabolites> transportersAnnotationMetabolites); 
 	
 	public List<TransportersAnnotationMetabolites> getAllTransportersAnnotationMetabolites(); 
 	
 	public TransportersAnnotationMetabolites getTransportersAnnotationMetabolite(Integer id); 
 	
-	public void removeTransportersAnnotationMetabolite(TransportersAnnotationMetabolites TransportersAnnotationMetabolite); 
+	public void removeTransportersAnnotationMetabolite(TransportersAnnotationMetabolites transportersAnnotationMetabolite); 
 	
-	public void removeTransportersAnnotationMetabolites(List<TransportersAnnotationMetabolites> TransportersAnnotationMetabolites); 
+	public void removeTransportersAnnotationMetabolites(List<TransportersAnnotationMetabolites> transportersAnnotationMetabolites); 
 	
-	public void updateTransportersAnnotationMetabolites(List<TransportersAnnotationMetabolites> TransportersAnnotationMetabolites); 
+	public void updateTransportersAnnotationMetabolites(List<TransportersAnnotationMetabolites> transportersAnnotationMetabolites); 
 	
-	public void updateTransportersAnnotationMetabolite(TransportersAnnotationMetabolites TransportersAnnotationMetabolite);
+	public void updateTransportersAnnotationMetabolite(TransportersAnnotationMetabolites transportersAnnotationMetabolite);
 
 }

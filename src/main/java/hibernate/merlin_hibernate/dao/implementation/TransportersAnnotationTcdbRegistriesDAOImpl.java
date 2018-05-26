@@ -19,9 +19,9 @@ public class TransportersAnnotationTcdbRegistriesDAOImpl extends GenericDaoImpl<
 		
 	}
 
-	public void addTransportersAnnotationTcdbRegistries(List<TransportersAnnotationTcdbRegistries> TransportersAnnotationTcdbRegistries) {
-		for (TransportersAnnotationTcdbRegistries TransportersAnnotationTcdbRegistry: TransportersAnnotationTcdbRegistries) {
-			this.addTransportersAnnotationTcdbRegistry(TransportersAnnotationTcdbRegistry);
+	public void addTransportersAnnotationTcdbRegistries(List<TransportersAnnotationTcdbRegistries> transportersAnnotationTcdbRegistries) {
+		for (TransportersAnnotationTcdbRegistries transportersAnnotationTcdbRegistry: transportersAnnotationTcdbRegistries) {
+			this.addTransportersAnnotationTcdbRegistry(transportersAnnotationTcdbRegistry);
 		}
 		
 	}
@@ -34,26 +34,26 @@ public class TransportersAnnotationTcdbRegistriesDAOImpl extends GenericDaoImpl<
 		return super.findById(id);
 	}
 
-	public void removeTransportersAnnotationTcdbRegistry(TransportersAnnotationTcdbRegistries TransportersAnnotationTcdbRegistry) {
-		super.delete(TransportersAnnotationTcdbRegistry);
+	public void removeTransportersAnnotationTcdbRegistry(TransportersAnnotationTcdbRegistries transportersAnnotationTcdbRegistry) {
+		super.delete(transportersAnnotationTcdbRegistry);
 
 	}
 
-	public void removeTransportersAnnotationTcdbRegistries(List<TransportersAnnotationTcdbRegistries> TransportersAnnotationTcdbRegistries) {
-		for (TransportersAnnotationTcdbRegistries TransportersAnnotationTcdbRegistry: TransportersAnnotationTcdbRegistries) {
-			this.removeTransportersAnnotationTcdbRegistry(TransportersAnnotationTcdbRegistry);
+	public void removeTransportersAnnotationTcdbRegistries(List<TransportersAnnotationTcdbRegistries> transportersAnnotationTcdbRegistries) {
+		for (TransportersAnnotationTcdbRegistries transportersAnnotationTcdbRegistry: transportersAnnotationTcdbRegistries) {
+			this.removeTransportersAnnotationTcdbRegistry(transportersAnnotationTcdbRegistry);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationTcdbRegistries(List<TransportersAnnotationTcdbRegistries> TransportersAnnotationTcdbRegistries) {
-		for (TransportersAnnotationTcdbRegistries TransportersAnnotationTcdbRegistry: TransportersAnnotationTcdbRegistries) {
-			this.update(TransportersAnnotationTcdbRegistry);
+	public void updateTransportersAnnotationTcdbRegistries(List<TransportersAnnotationTcdbRegistries> transportersAnnotationTcdbRegistries) {
+		for (TransportersAnnotationTcdbRegistries transportersAnnotationTcdbRegistry: transportersAnnotationTcdbRegistries) {
+			this.update(transportersAnnotationTcdbRegistry);
 		}
 	}
 
-	public void updateTransportersAnnotationTcdbRegistry(TransportersAnnotationTcdbRegistries TransportersAnnotationTcdbRegistry) {
-		super.update(TransportersAnnotationTcdbRegistry);
+	public void updateTransportersAnnotationTcdbRegistry(TransportersAnnotationTcdbRegistries transportersAnnotationTcdbRegistry) {
+		super.update(transportersAnnotationTcdbRegistry);
 		
 		
 		

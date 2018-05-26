@@ -22,8 +22,8 @@ public class TransportersIdentificationSwHitsDAOImpl extends GenericDaoImpl<Tran
 	}
 
 	public void addSwHits(List<TransportersIdentificationSwHits> swHits) {
-		for (TransportersIdentificationSwHits SwHit: swHits) {
-			this.addSwHit(SwHit);
+		for (TransportersIdentificationSwHits swHit: swHits) {
+			this.addSwHit(swHit);
 		}
 		
 	}

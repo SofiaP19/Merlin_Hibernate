@@ -7,21 +7,21 @@ import hibernate.merlin_hibernate.Entities.TransportersAnnotationGenes;
 
 public interface ITransportersAnnotationGenesDAO {
 	
-	public void addTransportersAnnotationGene(TransportersAnnotationGenes TransportersAnnotationGene); 
+	public void addTransportersAnnotationGene(TransportersAnnotationGenes transportersAnnotationGene); 
 	
-	public void addTransportersAnnotationGenes(List<TransportersAnnotationGenes> TransportersAnnotationGenes); 
+	public void addTransportersAnnotationGenes(List<TransportersAnnotationGenes> transportersAnnotationGenes); 
 	
 	public List<TransportersAnnotationGenes> getAllTransportersAnnotationGenes(); 
 	
 	public TransportersAnnotationGenes getTransportersAnnotationGene(Integer id); 
 	
-	public void removeTransportersAnnotationGene(TransportersAnnotationGenes TransportersAnnotationGene); 
+	public void removeTransportersAnnotationGene(TransportersAnnotationGenes transportersAnnotationGene); 
 	
-	public void removeTransportersAnnotationGenes(List<TransportersAnnotationGenes> TransportersAnnotationGenes); 
+	public void removeTransportersAnnotationGenes(List<TransportersAnnotationGenes> transportersAnnotationGenes); 
 	
-	public void updateTransportersAnnotationGenes(List<TransportersAnnotationGenes> TransportersAnnotationGenes); 
+	public void updateTransportersAnnotationGenes(List<TransportersAnnotationGenes> transportersAnnotationGenes); 
 	
-	public void updateTransportersAnnotationGene(TransportersAnnotationGenes TransportersAnnotationGene);
+	public void updateTransportersAnnotationGene(TransportersAnnotationGenes transportersAnnotationGene);
 
 }
 

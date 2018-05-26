@@ -15,14 +15,14 @@ public class CompartmentsAnnotationPsortReportsDAOImpl extends GenericDaoImpl<Co
 		
 	}
 
-	public void addCompartmentsAnnotationPsortReport(CompartmentsAnnotationPsortReports CompartmentsAnnotationPsortReport) {
-		super.save(CompartmentsAnnotationPsortReport);
+	public void addCompartmentsAnnotationPsortReport(CompartmentsAnnotationPsortReports compartmentsAnnotationPsortReport) {
+		super.save(compartmentsAnnotationPsortReport);
 		
 	}
 
-	public void addCompartmentsAnnotationPsortReports(List<CompartmentsAnnotationPsortReports> CompartmentsAnnotationPsortReports) {
-		for (CompartmentsAnnotationPsortReports CompartmentsAnnotationPsortReport: CompartmentsAnnotationPsortReports) {
-			this.addCompartmentsAnnotationPsortReport(CompartmentsAnnotationPsortReport);
+	public void addCompartmentsAnnotationPsortReports(List<CompartmentsAnnotationPsortReports> compartmentsAnnotationPsortReports) {
+		for (CompartmentsAnnotationPsortReports compartmentsAnnotationPsortReport: compartmentsAnnotationPsortReports) {
+			this.addCompartmentsAnnotationPsortReport(compartmentsAnnotationPsortReport);
 		}
 		
 	}
@@ -35,27 +35,27 @@ public class CompartmentsAnnotationPsortReportsDAOImpl extends GenericDaoImpl<Co
 		return super.findById(id);
 	}
 
-	public void removeCompartmentsAnnotationPsortReport(CompartmentsAnnotationPsortReports CompartmentsAnnotationPsortReport) {
-		super.delete(CompartmentsAnnotationPsortReport);
+	public void removeCompartmentsAnnotationPsortReport(CompartmentsAnnotationPsortReports compartmentsAnnotationPsortReport) {
+		super.delete(compartmentsAnnotationPsortReport);
 		
 	}
 
-	public void removeCompartmentsAnnotationPsortReports(List<CompartmentsAnnotationPsortReports> CompartmentsAnnotationPsortReports) {
-		for (CompartmentsAnnotationPsortReports CompartmentsAnnotationPsortReport: CompartmentsAnnotationPsortReports) {
-			this.removeCompartmentsAnnotationPsortReport(CompartmentsAnnotationPsortReport);
+	public void removeCompartmentsAnnotationPsortReports(List<CompartmentsAnnotationPsortReports> compartmentsAnnotationPsortReports) {
+		for (CompartmentsAnnotationPsortReports compartmentsAnnotationPsortReport: compartmentsAnnotationPsortReports) {
+			this.removeCompartmentsAnnotationPsortReport(compartmentsAnnotationPsortReport);
 		}
 		
 	}
 
-	public void updateCompartmentsAnnotationPsortReports(List<CompartmentsAnnotationPsortReports> CompartmentsAnnotationPsortReports) {
-		for (CompartmentsAnnotationPsortReports CompartmentsAnnotationPsortReport: CompartmentsAnnotationPsortReports) {
-			this.update(CompartmentsAnnotationPsortReport);
+	public void updateCompartmentsAnnotationPsortReports(List<CompartmentsAnnotationPsortReports> compartmentsAnnotationPsortReports) {
+		for (CompartmentsAnnotationPsortReports compartmentsAnnotationPsortReport: compartmentsAnnotationPsortReports) {
+			this.update(compartmentsAnnotationPsortReport);
 		}
 		
 	}
 
-	public void updateCompartmentsAnnotationPsortReport(CompartmentsAnnotationPsortReports CompartmentsAnnotationPsortReport) {
-		super.update(CompartmentsAnnotationPsortReport);
+	public void updateCompartmentsAnnotationPsortReport(CompartmentsAnnotationPsortReports compartmentsAnnotationPsortReport) {
+		super.update(compartmentsAnnotationPsortReport);
 		
 	}
 

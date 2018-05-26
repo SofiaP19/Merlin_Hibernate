@@ -8,19 +8,19 @@ import hibernate.merlin_hibernate.Entities.CompartmentsAnnotationPsortReports;
 
 public interface ICompartmentsAnnotationPsortReportsDAO {
 	
-	public void addCompartmentsAnnotationPsortReport(CompartmentsAnnotationPsortReports CompartmentsAnnotationPsortReport); 
+	public void addCompartmentsAnnotationPsortReport(CompartmentsAnnotationPsortReports compartmentsAnnotationPsortReport); 
 	
-	public void addCompartmentsAnnotationPsortReports(List<CompartmentsAnnotationPsortReports> CompartmentsAnnotationPsortReports); 
+	public void addCompartmentsAnnotationPsortReports(List<CompartmentsAnnotationPsortReports> compartmentsAnnotationPsortReports); 
 	
 	public List<CompartmentsAnnotationPsortReports> getAllCompartmentsAnnotationPsortReports(); 
 	
 	public CompartmentsAnnotationPsortReports getCompartmentsAnnotationPsortReport(Integer id); 
 	
-	public void removeCompartmentsAnnotationPsortReport(CompartmentsAnnotationPsortReports CompartmentsAnnotationPsortReport); 
+	public void removeCompartmentsAnnotationPsortReport(CompartmentsAnnotationPsortReports compartmentsAnnotationPsortReport); 
 	
-	public void removeCompartmentsAnnotationPsortReports(List<CompartmentsAnnotationPsortReports> CompartmentsAnnotationPsortReports); 
+	public void removeCompartmentsAnnotationPsortReports(List<CompartmentsAnnotationPsortReports> compartmentsAnnotationPsortReports); 
 	
-	public void updateCompartmentsAnnotationPsortReports(List<CompartmentsAnnotationPsortReports> CompartmentsAnnotationPsortReports); 
+	public void updateCompartmentsAnnotationPsortReports(List<CompartmentsAnnotationPsortReports> compartmentsAnnotationPsortReports); 
 	
-	public void updateCompartmentsAnnotationPsortReport(CompartmentsAnnotationPsortReports CompartmentsAnnotationPsortReport);
+	public void updateCompartmentsAnnotationPsortReport(CompartmentsAnnotationPsortReports compartmentsAnnotationPsortReport);
 }

@@ -15,14 +15,14 @@ public class TransportersIdentificationProjectsDAOImpl extends GenericDaoImpl<Tr
 		
 	}
 
-	public void addTransportersIdentificationProject(TransportersIdentificationProjects TransportersIdentificationProject) {
-		super.save(TransportersIdentificationProject);
+	public void addTransportersIdentificationProject(TransportersIdentificationProjects transportersIdentificationProject) {
+		super.save(transportersIdentificationProject);
 		
 	}
 
-	public void addTransportersIdentificationProjects(List<TransportersIdentificationProjects> TransportersIdentificationProjects) {
-		for (TransportersIdentificationProjects TransportersIdentificationProject: TransportersIdentificationProjects) {
-			this.addTransportersIdentificationProject(TransportersIdentificationProject);
+	public void addTransportersIdentificationProjects(List<TransportersIdentificationProjects> transportersIdentificationProjects) {
+		for (TransportersIdentificationProjects transportersIdentificationProject: transportersIdentificationProjects) {
+			this.addTransportersIdentificationProject(transportersIdentificationProject);
 		}
 		
 	}
@@ -35,27 +35,27 @@ public class TransportersIdentificationProjectsDAOImpl extends GenericDaoImpl<Tr
 		return super.findById(id);
 	}
 
-	public void removeTransportersIdentificationProject(TransportersIdentificationProjects TransportersIdentificationProject) {
-		super.delete(TransportersIdentificationProject);
+	public void removeTransportersIdentificationProject(TransportersIdentificationProjects transportersIdentificationProject) {
+		super.delete(transportersIdentificationProject);
 		
 	}
 
-	public void removeTransportersIdentificationProjects(List<TransportersIdentificationProjects> TransportersIdentificationProjects) {
-		for (TransportersIdentificationProjects TransportersIdentificationProject: TransportersIdentificationProjects) {
-			this.removeTransportersIdentificationProject(TransportersIdentificationProject);
+	public void removeTransportersIdentificationProjects(List<TransportersIdentificationProjects> transportersIdentificationProjects) {
+		for (TransportersIdentificationProjects transportersIdentificationProject: transportersIdentificationProjects) {
+			this.removeTransportersIdentificationProject(transportersIdentificationProject);
 		}
 		
 	}
 
-	public void updateTransportersIdentificationProjects(List<TransportersIdentificationProjects> TransportersIdentificationProjects) {
-		for (TransportersIdentificationProjects TransportersIdentificationProject: TransportersIdentificationProjects) {
-			this.update(TransportersIdentificationProject);
+	public void updateTransportersIdentificationProjects(List<TransportersIdentificationProjects> transportersIdentificationProjects) {
+		for (TransportersIdentificationProjects transportersIdentificationProject: transportersIdentificationProjects) {
+			this.update(transportersIdentificationProject);
 		}
 		
 	}
 
-	public void updateTransportersIdentificationProject(TransportersIdentificationProjects TransportersIdentificationProject) {
-		super.update(TransportersIdentificationProject);
+	public void updateTransportersIdentificationProject(TransportersIdentificationProjects transportersIdentificationProject) {
+		super.update(transportersIdentificationProject);
 		
 	}
 

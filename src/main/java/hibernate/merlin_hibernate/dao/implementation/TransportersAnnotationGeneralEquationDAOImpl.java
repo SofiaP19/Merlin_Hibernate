@@ -15,14 +15,14 @@ public class TransportersAnnotationGeneralEquationDAOImpl extends GenericDaoImpl
 
 	}
 
-	public void addTransportersAnnotationGeneralEquation(TransportersAnnotationGeneralEquation TransportersAnnotationGeneralEquation) {
-		super.save(TransportersAnnotationGeneralEquation);
+	public void addTransportersAnnotationGeneralEquation(TransportersAnnotationGeneralEquation transportersAnnotationGeneralEquation) {
+		super.save(transportersAnnotationGeneralEquation);
 		
 	}
 
-	public void addTransportersAnnotationGeneralEquations(List<TransportersAnnotationGeneralEquation> TransportersAnnotationGeneralEquations) {
-		for (TransportersAnnotationGeneralEquation TransportersAnnotationGeneralEquation: TransportersAnnotationGeneralEquations) {
-			this.addTransportersAnnotationGeneralEquation(TransportersAnnotationGeneralEquation);
+	public void addTransportersAnnotationGeneralEquations(List<TransportersAnnotationGeneralEquation> transportersAnnotationGeneralEquations) {
+		for (TransportersAnnotationGeneralEquation transportersAnnotationGeneralEquation: transportersAnnotationGeneralEquations) {
+			this.addTransportersAnnotationGeneralEquation(transportersAnnotationGeneralEquation);
 		}
 		
 	}
@@ -35,27 +35,27 @@ public class TransportersAnnotationGeneralEquationDAOImpl extends GenericDaoImpl
 		return super.findById(id);
 	}
 
-	public void removeTransportersAnnotationGeneralEquation(TransportersAnnotationGeneralEquation TransportersAnnotationGeneralEquation) {
-		super.delete(TransportersAnnotationGeneralEquation);
+	public void removeTransportersAnnotationGeneralEquation(TransportersAnnotationGeneralEquation transportersAnnotationGeneralEquation) {
+		super.delete(transportersAnnotationGeneralEquation);
 		
 	}
 
-	public void removeTransportersAnnotationGeneralEquations(List<TransportersAnnotationGeneralEquation> TransportersAnnotationGeneralEquations) {
-		for (TransportersAnnotationGeneralEquation TransportersAnnotationGeneralEquation: TransportersAnnotationGeneralEquations) {
-			this.removeTransportersAnnotationGeneralEquation(TransportersAnnotationGeneralEquation);
+	public void removeTransportersAnnotationGeneralEquations(List<TransportersAnnotationGeneralEquation> transportersAnnotationGeneralEquations) {
+		for (TransportersAnnotationGeneralEquation transportersAnnotationGeneralEquation: transportersAnnotationGeneralEquations) {
+			this.removeTransportersAnnotationGeneralEquation(transportersAnnotationGeneralEquation);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationGeneralEquations(List<TransportersAnnotationGeneralEquation> TransportersAnnotationGeneralEquations) {
-		for (TransportersAnnotationGeneralEquation TransportersAnnotationGeneralEquation: TransportersAnnotationGeneralEquations) {
-			this.update(TransportersAnnotationGeneralEquation);
+	public void updateTransportersAnnotationGeneralEquations(List<TransportersAnnotationGeneralEquation> transportersAnnotationGeneralEquations) {
+		for (TransportersAnnotationGeneralEquation transportersAnnotationGeneralEquation: transportersAnnotationGeneralEquations) {
+			this.update(transportersAnnotationGeneralEquation);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationGeneralEquation(TransportersAnnotationGeneralEquation TransportersAnnotationGeneralEquation) {
-		super.update(TransportersAnnotationGeneralEquation);
+	public void updateTransportersAnnotationGeneralEquation(TransportersAnnotationGeneralEquation transportersAnnotationGeneralEquation) {
+		super.update(transportersAnnotationGeneralEquation);
 		
 	}
 

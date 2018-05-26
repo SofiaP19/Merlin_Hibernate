@@ -15,14 +15,14 @@ public class TransportersAnnotationTcNumbersDAOImpl extends GenericDaoImpl<Trans
 	
 	}
 
-	public void addTransportersAnnotationTcNumber(TransportersAnnotationTcNumbers TransportersAnnotationTcNumber) {
-		super.save(TransportersAnnotationTcNumber);
+	public void addTransportersAnnotationTcNumber(TransportersAnnotationTcNumbers transportersAnnotationTcNumber) {
+		super.save(transportersAnnotationTcNumber);
 		
 	}
 
-	public void addTransportersAnnotationTcNumbers(List<TransportersAnnotationTcNumbers> TransportersAnnotationTcNumbers) {
-		for (TransportersAnnotationTcNumbers TransportersAnnotationTcNumber: TransportersAnnotationTcNumbers) {
-			this.addTransportersAnnotationTcNumber(TransportersAnnotationTcNumber);
+	public void addTransportersAnnotationTcNumbers(List<TransportersAnnotationTcNumbers> transportersAnnotationTcNumbers) {
+		for (TransportersAnnotationTcNumbers transportersAnnotationTcNumber: transportersAnnotationTcNumbers) {
+			this.addTransportersAnnotationTcNumber(transportersAnnotationTcNumber);
 		}
 		
 	}
@@ -35,27 +35,27 @@ public class TransportersAnnotationTcNumbersDAOImpl extends GenericDaoImpl<Trans
 		return super.findById(id);
 	}
 
-	public void removeTransportersAnnotationTcNumber(TransportersAnnotationTcNumbers TransportersAnnotationTcNumber) {
-		super.delete(TransportersAnnotationTcNumber);
+	public void removeTransportersAnnotationTcNumber(TransportersAnnotationTcNumbers transportersAnnotationTcNumber) {
+		super.delete(transportersAnnotationTcNumber);
 		
 	}
 
-	public void removeTransportersAnnotationTcNumbers(List<TransportersAnnotationTcNumbers> TransportersAnnotationTcNumbers) {
-		for (TransportersAnnotationTcNumbers TransportersAnnotationTcNumber: TransportersAnnotationTcNumbers) {
-			this.removeTransportersAnnotationTcNumber(TransportersAnnotationTcNumber);
+	public void removeTransportersAnnotationTcNumbers(List<TransportersAnnotationTcNumbers> transportersAnnotationTcNumbers) {
+		for (TransportersAnnotationTcNumbers transportersAnnotationTcNumber: transportersAnnotationTcNumbers) {
+			this.removeTransportersAnnotationTcNumber(transportersAnnotationTcNumber);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationTcNumbers(List<TransportersAnnotationTcNumbers> TransportersAnnotationTcNumbers) {
-		for (TransportersAnnotationTcNumbers TransportersAnnotationTcNumber: TransportersAnnotationTcNumbers) {
-			this.update(TransportersAnnotationTcNumber);
+	public void updateTransportersAnnotationTcNumbers(List<TransportersAnnotationTcNumbers> transportersAnnotationTcNumbers) {
+		for (TransportersAnnotationTcNumbers transportersAnnotationTcNumber: transportersAnnotationTcNumbers) {
+			this.update(transportersAnnotationTcNumber);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationTcNumber(TransportersAnnotationTcNumbers TransportersAnnotationTcNumber) {
-		super.update(TransportersAnnotationTcNumber);
+	public void updateTransportersAnnotationTcNumber(TransportersAnnotationTcNumbers transportersAnnotationTcNumber) {
+		super.update(transportersAnnotationTcNumber);
 		
 	}
 

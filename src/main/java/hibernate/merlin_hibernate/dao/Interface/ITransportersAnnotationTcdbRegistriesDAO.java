@@ -8,20 +8,20 @@ import hibernate.merlin_hibernate.Entities.TransportersAnnotationTcdbRegistries;
 
 public interface ITransportersAnnotationTcdbRegistriesDAO{
 	
-	public void addTransportersAnnotationTcdbRegistry(TransportersAnnotationTcdbRegistries TransportersAnnotationTcdbRegistry); 
+	public void addTransportersAnnotationTcdbRegistry(TransportersAnnotationTcdbRegistries transportersAnnotationTcdbRegistry); 
 	
-	public void addTransportersAnnotationTcdbRegistries(List<TransportersAnnotationTcdbRegistries> TransportersAnnotationTcdbRegistries); 
+	public void addTransportersAnnotationTcdbRegistries(List<TransportersAnnotationTcdbRegistries> transportersAnnotationTcdbRegistries); 
 	
 	public List<TransportersAnnotationTcdbRegistries> getAllTransportersAnnotationTcdbRegistries(); 
 	
 	public TransportersAnnotationTcdbRegistries getTransportersAnnotationTcdbRegistry(Integer id); 
 	
-	public void removeTransportersAnnotationTcdbRegistry(TransportersAnnotationTcdbRegistries TransportersAnnotationTcdbRegistry); 
+	public void removeTransportersAnnotationTcdbRegistry(TransportersAnnotationTcdbRegistries transportersAnnotationTcdbRegistry); 
 	
-	public void removeTransportersAnnotationTcdbRegistries(List<TransportersAnnotationTcdbRegistries> TransportersAnnotationTcdbRegistry); 
+	public void removeTransportersAnnotationTcdbRegistries(List<TransportersAnnotationTcdbRegistries> transportersAnnotationTcdbRegistry); 
 	
-	public void updateTransportersAnnotationTcdbRegistries(List<TransportersAnnotationTcdbRegistries> TransportersAnnotationTcdbRegistry); 
+	public void updateTransportersAnnotationTcdbRegistries(List<TransportersAnnotationTcdbRegistries> transportersAnnotationTcdbRegistry); 
 	
-	public void updateTransportersAnnotationTcdbRegistry(TransportersAnnotationTcdbRegistries TransportersAnnotationTcdbRegistry);
+	public void updateTransportersAnnotationTcdbRegistry(TransportersAnnotationTcdbRegistries transportersAnnotationTcdbRegistry);
 
 }

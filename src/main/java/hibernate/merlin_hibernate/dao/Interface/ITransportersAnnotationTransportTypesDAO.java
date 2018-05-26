@@ -7,19 +7,19 @@ import hibernate.merlin_hibernate.Entities.TransportersAnnotationTransportTypes;
 
 public interface ITransportersAnnotationTransportTypesDAO {
 
-	public void addTransportersAnnotationTransportTypes(TransportersAnnotationTransportTypes TransportersAnnotationTransportType); //adiciona um projeto
+	public void addTransportersAnnotationTransportTypes(TransportersAnnotationTransportTypes transportersAnnotationTransportType); 
 	
-	public void addTransportersAnnotationTransportTypes(List<TransportersAnnotationTransportTypes> TransportersAnnotationTransportTypes); //adiciona projetos
+	public void addTransportersAnnotationTransportTypes(List<TransportersAnnotationTransportTypes> transportersAnnotationTransportTypes);
 	
-	public List<TransportersAnnotationTransportTypes> getAllTransportersAnnotationTransportTypes(); //retorna os projetos
+	public List<TransportersAnnotationTransportTypes> getAllTransportersAnnotationTransportTypes(); 
 	
-	public TransportersAnnotationTransportTypes getTransportersAnnotationTransportTypes(Integer id); //retorna um projeto
+	public TransportersAnnotationTransportTypes getTransportersAnnotationTransportTypes(Integer id); 
 	
-	public void removeTransportersAnnotationTransportTypes(TransportersAnnotationTransportTypes TransportersAnnotationTransportType); //remove um projeto
+	public void removeTransportersAnnotationTransportTypes(TransportersAnnotationTransportTypes transportersAnnotationTransportType); 
 	
-	public void removeTransportersAnnotationTransportTypes(List<TransportersAnnotationTransportTypes> TransportersAnnotationTransportType); //remove projetos
+	public void removeTransportersAnnotationTransportTypes(List<TransportersAnnotationTransportTypes> transportersAnnotationTransportType); 
 	
-	public void updateTransportersAnnotationTransportTypes(List<TransportersAnnotationTransportTypes> TransportersAnnotationTransportTypes); //update de um projeto
+	public void updateTransportersAnnotationTransportTypes(List<TransportersAnnotationTransportTypes> transportersAnnotationTransportTypes); 
 	
-	public void updateTransportersAnnotationTransportTypes(TransportersAnnotationTransportTypes TransportersAnnotationTransportType);
+	public void updateTransportersAnnotationTransportTypes(TransportersAnnotationTransportTypes transportersAnnotationTransportType);
 }

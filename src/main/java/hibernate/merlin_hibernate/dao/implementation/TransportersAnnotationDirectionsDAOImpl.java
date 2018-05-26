@@ -15,14 +15,14 @@ public class TransportersAnnotationDirectionsDAOImpl extends GenericDaoImpl<Tran
 
 	}
 
-	public void addTransportersAnnotationDirection(TransportersAnnotationDirections TransportersAnnotationDirection) {
-		super.save(TransportersAnnotationDirection);
+	public void addTransportersAnnotationDirection(TransportersAnnotationDirections transportersAnnotationDirection) {
+		super.save(transportersAnnotationDirection);
 		
 	}
 
-	public void addTransportersAnnotationDirections(List<TransportersAnnotationDirections> TransportersAnnotationDirections) {
-		for (TransportersAnnotationDirections TransportersAnnotationDirection: TransportersAnnotationDirections) {
-			this.addTransportersAnnotationDirection(TransportersAnnotationDirection);
+	public void addTransportersAnnotationDirections(List<TransportersAnnotationDirections> transportersAnnotationDirections) {
+		for (TransportersAnnotationDirections transportersAnnotationDirection: transportersAnnotationDirections) {
+			this.addTransportersAnnotationDirection(transportersAnnotationDirection);
 		}
 		
 	}
@@ -35,27 +35,27 @@ public class TransportersAnnotationDirectionsDAOImpl extends GenericDaoImpl<Tran
 		return super.findById(id);
 	}
 
-	public void removeTransportersAnnotationDirection(TransportersAnnotationDirections TransportersAnnotationDirection) {
-		super.delete(TransportersAnnotationDirection);
+	public void removeTransportersAnnotationDirection(TransportersAnnotationDirections transportersAnnotationDirection) {
+		super.delete(transportersAnnotationDirection);
 		
 	}
 
-	public void removeTransportersAnnotationDirections(List<TransportersAnnotationDirections> TransportersAnnotationDirections) {
-		for (TransportersAnnotationDirections TransportersAnnotationDirection: TransportersAnnotationDirections) {
-			this.removeTransportersAnnotationDirection(TransportersAnnotationDirection);
+	public void removeTransportersAnnotationDirections(List<TransportersAnnotationDirections> transportersAnnotationDirections) {
+		for (TransportersAnnotationDirections transportersAnnotationDirection: transportersAnnotationDirections) {
+			this.removeTransportersAnnotationDirection(transportersAnnotationDirection);
 		}	
 		
 	}
 
-	public void updateTransportersAnnotationDirections(List<TransportersAnnotationDirections> TransportersAnnotationDirections) {
-		for (TransportersAnnotationDirections TransportersAnnotationDirection: TransportersAnnotationDirections) {
-			this.update(TransportersAnnotationDirection);
+	public void updateTransportersAnnotationDirections(List<TransportersAnnotationDirections> transportersAnnotationDirections) {
+		for (TransportersAnnotationDirections transportersAnnotationDirection: transportersAnnotationDirections) {
+			this.update(transportersAnnotationDirection);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationDirection(TransportersAnnotationDirections TransportersAnnotationDirection) {
-		super.update(TransportersAnnotationDirection);
+	public void updateTransportersAnnotationDirection(TransportersAnnotationDirections transportersAnnotationDirection) {
+		super.update(transportersAnnotationDirection);
 		
 	}
 

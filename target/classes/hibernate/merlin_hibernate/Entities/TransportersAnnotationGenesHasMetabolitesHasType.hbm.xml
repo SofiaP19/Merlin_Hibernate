@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 21/mar/2018 18:06:36 by Hibernate Tools 5.2.8.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="merlin_basic2" dynamic-insert="false" dynamic-update="false" mutable="true" name="Entities.TransportersAnnotationGenesHasMetabolitesHasType" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="transporters_annotation_genes_has_metabolites_has_type">
+        <composite-id class="Entities.TransportersAnnotationGenesHasMetabolitesHasTypeId" mapped="false" name="id" unsaved-value="undefined">
+            <key-property name="geneId" type="int">
+                <column name="gene_id"/>
+            </key-property>
+            <key-property name="transportTypeId" type="int">
+                <column name="transport_type_id"/>
+            </key-property>
+            <key-property name="metaboliteId" type="int">
+                <column name="metabolite_id"/>
+            </key-property>
+        </composite-id>
+        <property generated="never" lazy="false" name="transportTypeScoreSum" optimistic-lock="true" type="float" unique="false">
+            <column name="transport_type_score_sum" not-null="true" precision="12" scale="0"/>
+        </property>
+        <property generated="never" lazy="false" name="taxonomyScoreSum" optimistic-lock="true" type="float" unique="false">
+            <column name="taxonomy_score_sum" not-null="true" precision="12" scale="0"/>
+        </property>
+        <property generated="never" lazy="false" name="frequency" optimistic-lock="true" type="int" unique="false">
+            <column name="frequency" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -20,9 +20,9 @@ public class CompartmentsAnnotationCompartmentsDAOImpl extends GenericDaoImpl<Co
 		
 	}
 
-	public void addCompartmentsAnnotationCompartments(List<CompartmentsAnnotationCompartments> CompartmentsAnnotationCompartments) {
-		for (CompartmentsAnnotationCompartments CompartmentsAnnotationCompartment: CompartmentsAnnotationCompartments) {
-			this.addCompartmentsAnnotationCompartment(CompartmentsAnnotationCompartment);
+	public void addCompartmentsAnnotationCompartments(List<CompartmentsAnnotationCompartments> compartmentsAnnotationCompartments) {
+		for (CompartmentsAnnotationCompartments compartmentsAnnotationCompartment: compartmentsAnnotationCompartments) {
+			this.addCompartmentsAnnotationCompartment(compartmentsAnnotationCompartment);
 		}
 		
 	}
@@ -35,27 +35,27 @@ public class CompartmentsAnnotationCompartmentsDAOImpl extends GenericDaoImpl<Co
 		return super.findById(id);
 	}
 
-	public void removeCompartmentsAnnotationCompartment(CompartmentsAnnotationCompartments CompartmentsAnnotationCompartment) {
-		super.delete(CompartmentsAnnotationCompartment);
+	public void removeCompartmentsAnnotationCompartment(CompartmentsAnnotationCompartments compartmentsAnnotationCompartment) {
+		super.delete(compartmentsAnnotationCompartment);
 		
 	}
 
-	public void removeCompartmentsAnnotationCompartments(List<CompartmentsAnnotationCompartments> CompartmentsAnnotationCompartments) {
-		for (CompartmentsAnnotationCompartments CompartmentsAnnotationCompartment: CompartmentsAnnotationCompartments) {
-			this.removeCompartmentsAnnotationCompartment(CompartmentsAnnotationCompartment);
+	public void removeCompartmentsAnnotationCompartments(List<CompartmentsAnnotationCompartments> compartmentsAnnotationCompartments) {
+		for (CompartmentsAnnotationCompartments compartmentsAnnotationCompartment: compartmentsAnnotationCompartments) {
+			this.removeCompartmentsAnnotationCompartment(compartmentsAnnotationCompartment);
 		}
 		
 	}
 
-	public void updateCompartmentsAnnotationCompartments(List<CompartmentsAnnotationCompartments> CompartmentsAnnotationCompartments) {
-		for (CompartmentsAnnotationCompartments CompartmentsAnnotationCompartment: CompartmentsAnnotationCompartments) {
-			this.update(CompartmentsAnnotationCompartment);
+	public void updateCompartmentsAnnotationCompartments(List<CompartmentsAnnotationCompartments> compartmentsAnnotationCompartments) {
+		for (CompartmentsAnnotationCompartments compartmentsAnnotationCompartment: compartmentsAnnotationCompartments) {
+			this.update(compartmentsAnnotationCompartment);
 		}
 		
 	}
 
-	public void updateCompartmentsAnnotationCompartment(CompartmentsAnnotationCompartments CompartmentsAnnotationCompartment) {
-		super.update(CompartmentsAnnotationCompartment);
+	public void updateCompartmentsAnnotationCompartment(CompartmentsAnnotationCompartments compartmentsAnnotationCompartment) {
+		super.update(compartmentsAnnotationCompartment);
 		
 	}
 

@@ -20,9 +20,9 @@ public class TransportersAnnotationGenesDAOImpl extends GenericDaoImpl<Transport
 		
 	}
 
-	public void addTransportersAnnotationGenes(List<TransportersAnnotationGenes> TransportersAnnotationGenes) {
-		for (TransportersAnnotationGenes TransportersAnnotationGene: TransportersAnnotationGenes) {
-			this.addTransportersAnnotationGene(TransportersAnnotationGene);
+	public void addTransportersAnnotationGenes(List<TransportersAnnotationGenes> transportersAnnotationGenes) {
+		for (TransportersAnnotationGenes transportersAnnotationGene: transportersAnnotationGenes) {
+			this.addTransportersAnnotationGene(transportersAnnotationGene);
 		}
 		
 	}
@@ -35,26 +35,26 @@ public class TransportersAnnotationGenesDAOImpl extends GenericDaoImpl<Transport
 		return super.findById(id);
 	}
 
-	public void removeTransportersAnnotationGene(TransportersAnnotationGenes TransportersAnnotationGene) {
-		super.delete(TransportersAnnotationGene);
+	public void removeTransportersAnnotationGene(TransportersAnnotationGenes transportersAnnotationGene) {
+		super.delete(transportersAnnotationGene);
 		
 	}
 
-	public void removeTransportersAnnotationGenes(List<TransportersAnnotationGenes> TransportersAnnotationGenes) {
-		for (TransportersAnnotationGenes TransportersAnnotationGene: TransportersAnnotationGenes) {
-			this.removeTransportersAnnotationGene(TransportersAnnotationGene);
+	public void removeTransportersAnnotationGenes(List<TransportersAnnotationGenes> transportersAnnotationGenes) {
+		for (TransportersAnnotationGenes transportersAnnotationGene: transportersAnnotationGenes) {
+			this.removeTransportersAnnotationGene(transportersAnnotationGene);
 		}		
 	}
 
-	public void updateTransportersAnnotationGenes(List<TransportersAnnotationGenes> TransportersAnnotationGenes) {
-		for (TransportersAnnotationGenes TransportersAnnotationGene: TransportersAnnotationGenes) {
-			this.update(TransportersAnnotationGene);
+	public void updateTransportersAnnotationGenes(List<TransportersAnnotationGenes> transportersAnnotationGenes) {
+		for (TransportersAnnotationGenes transportersAnnotationGene: transportersAnnotationGenes) {
+			this.update(transportersAnnotationGene);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationGene(TransportersAnnotationGenes TransportersAnnotationGene) {
-		super.update(TransportersAnnotationGene);
+	public void updateTransportersAnnotationGene(TransportersAnnotationGenes transportersAnnotationGene) {
+		super.update(transportersAnnotationGene);
 		
 	}
 

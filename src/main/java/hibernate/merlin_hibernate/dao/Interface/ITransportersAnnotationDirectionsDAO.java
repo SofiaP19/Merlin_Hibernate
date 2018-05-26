@@ -7,19 +7,19 @@ import hibernate.merlin_hibernate.Entities.TransportersAnnotationDirections;
 
 public interface ITransportersAnnotationDirectionsDAO {
 	
-	public void addTransportersAnnotationDirection(TransportersAnnotationDirections TransportersAnnotationDirection); 
+	public void addTransportersAnnotationDirection(TransportersAnnotationDirections transportersAnnotationDirection); 
 	
-	public void addTransportersAnnotationDirections(List<TransportersAnnotationDirections> TransportersAnnotationDirections); 
+	public void addTransportersAnnotationDirections(List<TransportersAnnotationDirections> transportersAnnotationDirections); 
 	
 	public List<TransportersAnnotationDirections> getAllTransportersAnnotationDirections(); 
 	
 	public TransportersAnnotationDirections getTransportersAnnotationDirection(Integer id); 
 	
-	public void removeTransportersAnnotationDirection(TransportersAnnotationDirections TransportersAnnotationDirection); 
+	public void removeTransportersAnnotationDirection(TransportersAnnotationDirections transportersAnnotationDirection); 
 	
-	public void removeTransportersAnnotationDirections(List<TransportersAnnotationDirections> TransportersAnnotationDirections); 
+	public void removeTransportersAnnotationDirections(List<TransportersAnnotationDirections> transportersAnnotationDirections); 
 	
-	public void updateTransportersAnnotationDirections(List<TransportersAnnotationDirections> TransportersAnnotationDirections); 
+	public void updateTransportersAnnotationDirections(List<TransportersAnnotationDirections> transportersAnnotationDirections); 
 	
-	public void updateTransportersAnnotationDirection(TransportersAnnotationDirections TransportersAnnotationDirection);
+	public void updateTransportersAnnotationDirection(TransportersAnnotationDirections transportersAnnotationDirection);
 }

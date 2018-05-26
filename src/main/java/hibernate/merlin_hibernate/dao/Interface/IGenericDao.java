@@ -4,9 +4,11 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
+import org.hibernate.SessionFactory;
+
 public interface IGenericDao<T> {
 	
-	//public void setSessionFactory(SessionFactory sessionFactory, Class<T> klass);
+		public SessionFactory getSessionFactory();
 	//	public void setKlass(Class<T> klass); - eliminar método na impl
 	
 		public T findById(Serializable id);

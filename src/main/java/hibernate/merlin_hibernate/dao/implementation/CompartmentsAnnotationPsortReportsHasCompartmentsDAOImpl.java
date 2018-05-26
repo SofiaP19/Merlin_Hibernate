@@ -20,9 +20,9 @@ public class CompartmentsAnnotationPsortReportsHasCompartmentsDAOImpl extends Ge
 		
 	}
 
-	public void addCompartmentsAnnotationPsortReportsHasCompartments(List<CompartmentsAnnotationPsortReportsHasCompartments> CompartmentsAnnotationPsortReportsHasCompartments) {
-		for (CompartmentsAnnotationPsortReportsHasCompartments CompartmentsAnnotationPsortReportsHasCompartment: CompartmentsAnnotationPsortReportsHasCompartments) {
-			this.addCompartmentsAnnotationPsortReportsHasCompartment(CompartmentsAnnotationPsortReportsHasCompartment);
+	public void addCompartmentsAnnotationPsortReportsHasCompartments(List<CompartmentsAnnotationPsortReportsHasCompartments> compartmentsAnnotationPsortReportsHasCompartments) {
+		for (CompartmentsAnnotationPsortReportsHasCompartments compartmentsAnnotationPsortReportsHasCompartment: compartmentsAnnotationPsortReportsHasCompartments) {
+			this.addCompartmentsAnnotationPsortReportsHasCompartment(compartmentsAnnotationPsortReportsHasCompartment);
 		}
 		
 	}
@@ -35,28 +35,28 @@ public class CompartmentsAnnotationPsortReportsHasCompartmentsDAOImpl extends Ge
 		return super.findById(id);
 	}
 
-	public void removeCompartmentsAnnotationPsortReportsHasCompartment(CompartmentsAnnotationPsortReportsHasCompartments CompartmentsAnnotationPsortReportsHasCompartment) {
-		super.delete(CompartmentsAnnotationPsortReportsHasCompartment);
+	public void removeCompartmentsAnnotationPsortReportsHasCompartment(CompartmentsAnnotationPsortReportsHasCompartments compartmentsAnnotationPsortReportsHasCompartment) {
+		super.delete(compartmentsAnnotationPsortReportsHasCompartment);
 		
 		
 	}
 
-	public void removeCompartmentsAnnotationPsortReportsHasCompartments(List<CompartmentsAnnotationPsortReportsHasCompartments> CompartmentsAnnotationPsortReportsHasCompartments) {
-		for (CompartmentsAnnotationPsortReportsHasCompartments CompartmentsAnnotationPsortReportsHasCompartment: CompartmentsAnnotationPsortReportsHasCompartments) {
-			this.removeCompartmentsAnnotationPsortReportsHasCompartment(CompartmentsAnnotationPsortReportsHasCompartment);
+	public void removeCompartmentsAnnotationPsortReportsHasCompartments(List<CompartmentsAnnotationPsortReportsHasCompartments> compartmentsAnnotationPsortReportsHasCompartments) {
+		for (CompartmentsAnnotationPsortReportsHasCompartments compartmentsAnnotationPsortReportsHasCompartment: compartmentsAnnotationPsortReportsHasCompartments) {
+			this.removeCompartmentsAnnotationPsortReportsHasCompartment(compartmentsAnnotationPsortReportsHasCompartment);
 		}
 		
 	}
 
-	public void updateCompartmentsAnnotationPsortReportsHasCompartments(List<CompartmentsAnnotationPsortReportsHasCompartments> CompartmentsAnnotationPsortReportsHasCompartments) {
-		for (CompartmentsAnnotationPsortReportsHasCompartments CompartmentsAnnotationPsortReportsHasCompartment: CompartmentsAnnotationPsortReportsHasCompartments) {
-			this.update(CompartmentsAnnotationPsortReportsHasCompartment);
+	public void updateCompartmentsAnnotationPsortReportsHasCompartments(List<CompartmentsAnnotationPsortReportsHasCompartments> compartmentsAnnotationPsortReportsHasCompartments) {
+		for (CompartmentsAnnotationPsortReportsHasCompartments compartmentsAnnotationPsortReportsHasCompartment: compartmentsAnnotationPsortReportsHasCompartments) {
+			this.update(compartmentsAnnotationPsortReportsHasCompartment);
 		}
 		
 	}
 
-	public void updateCompartmentsAnnotationPsortReportsHasCompartment(CompartmentsAnnotationPsortReportsHasCompartments CompartmentsAnnotationPsortReportsHasCompartment) {
-		super.update(CompartmentsAnnotationPsortReportsHasCompartment);
+	public void updateCompartmentsAnnotationPsortReportsHasCompartment(CompartmentsAnnotationPsortReportsHasCompartments compartmentsAnnotationPsortReportsHasCompartment) {
+		super.update(compartmentsAnnotationPsortReportsHasCompartment);
 		
 	}
 

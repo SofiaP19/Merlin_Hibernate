@@ -15,14 +15,14 @@ public class TransportersAnnotationGenesHasMetabolitesDAOImpl extends GenericDao
 
 	}
 
-	public void addTransportersAnnotationGenesHasMetabolite(TransportersAnnotationGenesHasMetabolites TransportersAnnotationGenesHasMetabolite) {
-		super.save(TransportersAnnotationGenesHasMetabolite);
+	public void addTransportersAnnotationGenesHasMetabolite(TransportersAnnotationGenesHasMetabolites transportersAnnotationGenesHasMetabolite) {
+		super.save(transportersAnnotationGenesHasMetabolite);
 		
 	}
 
-	public void addTransportersAnnotationGenesHasMetabolites(List<TransportersAnnotationGenesHasMetabolites> TransportersAnnotationGenesHasMetabolites) {
-		for (TransportersAnnotationGenesHasMetabolites TransportersAnnotationGenesHasMetabolite: TransportersAnnotationGenesHasMetabolites) {
-			this.addTransportersAnnotationGenesHasMetabolite(TransportersAnnotationGenesHasMetabolite);
+	public void addTransportersAnnotationGenesHasMetabolites(List<TransportersAnnotationGenesHasMetabolites> transportersAnnotationGenesHasMetabolites) {
+		for (TransportersAnnotationGenesHasMetabolites transportersAnnotationGenesHasMetabolite: transportersAnnotationGenesHasMetabolites) {
+			this.addTransportersAnnotationGenesHasMetabolite(transportersAnnotationGenesHasMetabolite);
 		}
 		
 	}
@@ -35,27 +35,27 @@ public class TransportersAnnotationGenesHasMetabolitesDAOImpl extends GenericDao
 		return super.findById(id);
 	}
 
-	public void removeTransportersAnnotationGenesHasMetabolite(TransportersAnnotationGenesHasMetabolites TransportersAnnotationGenesHasMetabolite) {
-		super.delete(TransportersAnnotationGenesHasMetabolite);
+	public void removeTransportersAnnotationGenesHasMetabolite(TransportersAnnotationGenesHasMetabolites transportersAnnotationGenesHasMetabolite) {
+		super.delete(transportersAnnotationGenesHasMetabolite);
 		
 	}
 
-	public void removeTransportersAnnotationGenesHasMetabolites(List<TransportersAnnotationGenesHasMetabolites> TransportersAnnotationGenesHasMetabolites) {
-		for (TransportersAnnotationGenesHasMetabolites TransportersAnnotationGenesHasMetabolite: TransportersAnnotationGenesHasMetabolites) {
-			this.removeTransportersAnnotationGenesHasMetabolite(TransportersAnnotationGenesHasMetabolite);
+	public void removeTransportersAnnotationGenesHasMetabolites(List<TransportersAnnotationGenesHasMetabolites> transportersAnnotationGenesHasMetabolites) {
+		for (TransportersAnnotationGenesHasMetabolites transportersAnnotationGenesHasMetabolite: transportersAnnotationGenesHasMetabolites) {
+			this.removeTransportersAnnotationGenesHasMetabolite(transportersAnnotationGenesHasMetabolite);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationGenesHasMetabolites(List<TransportersAnnotationGenesHasMetabolites> TransportersAnnotationGenesHasMetabolites) {
-		for (TransportersAnnotationGenesHasMetabolites TransportersAnnotationGenesHasMetabolite: TransportersAnnotationGenesHasMetabolites) {
-			this.update(TransportersAnnotationGenesHasMetabolite);
+	public void updateTransportersAnnotationGenesHasMetabolites(List<TransportersAnnotationGenesHasMetabolites> transportersAnnotationGenesHasMetabolites) {
+		for (TransportersAnnotationGenesHasMetabolites transportersAnnotationGenesHasMetabolite: transportersAnnotationGenesHasMetabolites) {
+			this.update(transportersAnnotationGenesHasMetabolite);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationGenesHasMetabolite(TransportersAnnotationGenesHasMetabolites TransportersAnnotationGenesHasMetabolite) {
-		super.update(TransportersAnnotationGenesHasMetabolite);
+	public void updateTransportersAnnotationGenesHasMetabolite(TransportersAnnotationGenesHasMetabolites transportersAnnotationGenesHasMetabolite) {
+		super.update(transportersAnnotationGenesHasMetabolite);
 		
 	}
 

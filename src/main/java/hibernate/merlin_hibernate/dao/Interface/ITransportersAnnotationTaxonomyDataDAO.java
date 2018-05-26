@@ -8,20 +8,20 @@ import hibernate.merlin_hibernate.Entities.TransportersAnnotationTaxonomyData;
 
 public interface ITransportersAnnotationTaxonomyDataDAO {
 	
-	public void addTransportersAnnotationTaxonomyData(TransportersAnnotationTaxonomyData TransportersAnnotationTaxonomyData); 
+	public void addTransportersAnnotationTaxonomyData(TransportersAnnotationTaxonomyData transportersAnnotationTaxonomyData); 
 	
-	public void addTransportersAnnotationTaxonomyListData(List<TransportersAnnotationTaxonomyData> TransportersAnnotationTaxonomyData); 
+	public void addTransportersAnnotationTaxonomyListData(List<TransportersAnnotationTaxonomyData> transportersAnnotationTaxonomyData); 
 	
 	public List<TransportersAnnotationTaxonomyData> getAllTransportersAnnotationTaxonomyData(); 
 	
 	public TransportersAnnotationTaxonomyData getTransportersAnnotationTaxonomyData(Integer id); 
 	
-	public void removeTransportersAnnotationTaxonomyData(TransportersAnnotationTaxonomyData TransportersAnnotationTaxonomyData); 
+	public void removeTransportersAnnotationTaxonomyData(TransportersAnnotationTaxonomyData transportersAnnotationTaxonomyData); 
 	
-	public void removeTransportersAnnotationTaxonomyListData(List<TransportersAnnotationTaxonomyData> TransportersAnnotationTaxonomyData); 
+	public void removeTransportersAnnotationTaxonomyListData(List<TransportersAnnotationTaxonomyData> transportersAnnotationTaxonomyData); 
 	
-	public void updateTransportersAnnotationTaxonomyListData(List<TransportersAnnotationTaxonomyData> TransportersAnnotationTaxonomyData); 
+	public void updateTransportersAnnotationTaxonomyListData(List<TransportersAnnotationTaxonomyData> transportersAnnotationTaxonomyData); 
 	
-	public void updateTransportersAnnotationTaxonomyData(TransportersAnnotationTaxonomyData TransportersAnnotationTaxonomyData);
+	public void updateTransportersAnnotationTaxonomyData(TransportersAnnotationTaxonomyData transportersAnnotationTaxonomyData);
 
 }

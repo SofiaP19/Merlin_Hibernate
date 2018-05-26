@@ -15,14 +15,14 @@ public class TransportersAnnotationGenesHasTcdbRegistriesDAOImpl extends Generic
 	
 	}
 
-	public void addTransportersAnnotationGenesHasTcdbRegistry(TransportersAnnotationGenesHasTcdbRegistries TransportersAnnotationGenesHasTcdbRegistry) {
-		super.save(TransportersAnnotationGenesHasTcdbRegistry);
+	public void addTransportersAnnotationGenesHasTcdbRegistry(TransportersAnnotationGenesHasTcdbRegistries transportersAnnotationGenesHasTcdbRegistry) {
+		super.save(transportersAnnotationGenesHasTcdbRegistry);
 		
 	}
 
-	public void addTransportersAnnotationGenesHasTcdbRegistries(List<TransportersAnnotationGenesHasTcdbRegistries> TransportersAnnotationGenesHasTcdbRegistries) {
-		for (TransportersAnnotationGenesHasTcdbRegistries TransportersAnnotationGenesHasTcdbRegistry: TransportersAnnotationGenesHasTcdbRegistries) {
-			this.addTransportersAnnotationGenesHasTcdbRegistry(TransportersAnnotationGenesHasTcdbRegistry);
+	public void addTransportersAnnotationGenesHasTcdbRegistries(List<TransportersAnnotationGenesHasTcdbRegistries> transportersAnnotationGenesHasTcdbRegistries) {
+		for (TransportersAnnotationGenesHasTcdbRegistries transportersAnnotationGenesHasTcdbRegistry: transportersAnnotationGenesHasTcdbRegistries) {
+			this.addTransportersAnnotationGenesHasTcdbRegistry(transportersAnnotationGenesHasTcdbRegistry);
 		}
 		
 	}
@@ -35,26 +35,26 @@ public class TransportersAnnotationGenesHasTcdbRegistriesDAOImpl extends Generic
 		return super.findById(id);
 	}
 
-	public void removeTransportersAnnotationGenesHasTcdbRegistry(TransportersAnnotationGenesHasTcdbRegistries TransportersAnnotationGenesHasTcdbRegistry) {
-		super.delete(TransportersAnnotationGenesHasTcdbRegistry);
+	public void removeTransportersAnnotationGenesHasTcdbRegistry(TransportersAnnotationGenesHasTcdbRegistries transportersAnnotationGenesHasTcdbRegistry) {
+		super.delete(transportersAnnotationGenesHasTcdbRegistry);
 		
 	}
 
-	public void removeTransportersAnnotationGenesHasTcdbRegistries(List<TransportersAnnotationGenesHasTcdbRegistries> TransportersAnnotationGenesHasTcdbRegistries) {
-		for (TransportersAnnotationGenesHasTcdbRegistries TransportersAnnotationGenesHasTcdbRegistry: TransportersAnnotationGenesHasTcdbRegistries) {
-			this.removeTransportersAnnotationGenesHasTcdbRegistry(TransportersAnnotationGenesHasTcdbRegistry);
+	public void removeTransportersAnnotationGenesHasTcdbRegistries(List<TransportersAnnotationGenesHasTcdbRegistries> transportersAnnotationGenesHasTcdbRegistries) {
+		for (TransportersAnnotationGenesHasTcdbRegistries transportersAnnotationGenesHasTcdbRegistry: transportersAnnotationGenesHasTcdbRegistries) {
+			this.removeTransportersAnnotationGenesHasTcdbRegistry(transportersAnnotationGenesHasTcdbRegistry);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationGenesHasTcdbRegistries(List<TransportersAnnotationGenesHasTcdbRegistries> TransportersAnnotationGenesHasTcdbRegistries) {
-		for (TransportersAnnotationGenesHasTcdbRegistries TransportersAnnotationGenesHasTcdbRegistry: TransportersAnnotationGenesHasTcdbRegistries) {
-			this.update(TransportersAnnotationGenesHasTcdbRegistry);
+	public void updateTransportersAnnotationGenesHasTcdbRegistries(List<TransportersAnnotationGenesHasTcdbRegistries> transportersAnnotationGenesHasTcdbRegistries) {
+		for (TransportersAnnotationGenesHasTcdbRegistries transportersAnnotationGenesHasTcdbRegistry: transportersAnnotationGenesHasTcdbRegistries) {
+			this.update(transportersAnnotationGenesHasTcdbRegistry);
 		}
 	}
 
-	public void updateTransportersAnnotationGenesHasTcdbRegistry(TransportersAnnotationGenesHasTcdbRegistries TransportersAnnotationGenesHasTcdbRegistry) {
-		super.update(TransportersAnnotationGenesHasTcdbRegistry);
+	public void updateTransportersAnnotationGenesHasTcdbRegistry(TransportersAnnotationGenesHasTcdbRegistries transportersAnnotationGenesHasTcdbRegistry) {
+		super.update(transportersAnnotationGenesHasTcdbRegistry);
 		
 	}
 

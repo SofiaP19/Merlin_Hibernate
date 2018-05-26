@@ -14,14 +14,14 @@ public class TransportersAnnotationTransportSystemsDAOImpl extends GenericDaoImp
 		super(sessionFactory, TransportersAnnotationTransportSystems.class);
 		
 	}
-	public void addTransportersAnnotationTransportSystem(TransportersAnnotationTransportSystems TransportersAnnotationTransportSystem) {
-		super.save(TransportersAnnotationTransportSystem);
+	public void addTransportersAnnotationTransportSystem(TransportersAnnotationTransportSystems transportersAnnotationTransportSystem) {
+		super.save(transportersAnnotationTransportSystem);
 		
 	}
 
-	public void addTransportersAnnotationTransportSystems(List<TransportersAnnotationTransportSystems> TransportersAnnotationTransportSystems) {
-		for (TransportersAnnotationTransportSystems TransportersAnnotationTransportType: TransportersAnnotationTransportSystems) {
-			this.addTransportersAnnotationTransportSystem(TransportersAnnotationTransportType);
+	public void addTransportersAnnotationTransportSystems(List<TransportersAnnotationTransportSystems> transportersAnnotationTransportSystems) {
+		for (TransportersAnnotationTransportSystems transportersAnnotationTransportType: transportersAnnotationTransportSystems) {
+			this.addTransportersAnnotationTransportSystem(transportersAnnotationTransportType);
 		}
 		
 	}
@@ -33,27 +33,27 @@ public class TransportersAnnotationTransportSystemsDAOImpl extends GenericDaoImp
 	public TransportersAnnotationTransportSystems getTransportersAnnotationTransportSystems(Integer id) {
 		return super.findById(id);
 	}
-	public void removeTransportersAnnotationTransportSystem(TransportersAnnotationTransportSystems TransportersAnnotationTransportSystem) {
-		super.delete(TransportersAnnotationTransportSystem);
+	public void removeTransportersAnnotationTransportSystem(TransportersAnnotationTransportSystems transportersAnnotationTransportSystem) {
+		super.delete(transportersAnnotationTransportSystem);
 	}
 
 
-	public void removeTransportersAnnotationTransportSystems(List<TransportersAnnotationTransportSystems> TransportersAnnotationTransportSystems) {
-		for (TransportersAnnotationTransportSystems TransportersAnnotationTransportSystem: TransportersAnnotationTransportSystems) {
-			this.removeTransportersAnnotationTransportSystem(TransportersAnnotationTransportSystem);
+	public void removeTransportersAnnotationTransportSystems(List<TransportersAnnotationTransportSystems> transportersAnnotationTransportSystems) {
+		for (TransportersAnnotationTransportSystems transportersAnnotationTransportSystem: transportersAnnotationTransportSystems) {
+			this.removeTransportersAnnotationTransportSystem(transportersAnnotationTransportSystem);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationTransportSystems(List<TransportersAnnotationTransportSystems> TransportersAnnotationTransportSystems) {
-		for (hibernate.merlin_hibernate.Entities.TransportersAnnotationTransportSystems TransportersAnnotationTransportType: TransportersAnnotationTransportSystems) {
-			this.update(TransportersAnnotationTransportType);
+	public void updateTransportersAnnotationTransportSystems(List<TransportersAnnotationTransportSystems> transportersAnnotationTransportSystems) {
+		for (TransportersAnnotationTransportSystems transportersAnnotationTransportType: transportersAnnotationTransportSystems) {
+			this.update(transportersAnnotationTransportType);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationTransportSystem(TransportersAnnotationTransportSystems TransportersAnnotationTransportSystem) {
-		super.update(TransportersAnnotationTransportSystem);
+	public void updateTransportersAnnotationTransportSystem(TransportersAnnotationTransportSystems transportersAnnotationTransportSystem) {
+		super.update(transportersAnnotationTransportSystem);
 		
 
 	}

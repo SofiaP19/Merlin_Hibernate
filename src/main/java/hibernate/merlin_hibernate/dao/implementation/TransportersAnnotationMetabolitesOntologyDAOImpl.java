@@ -15,14 +15,14 @@ public class TransportersAnnotationMetabolitesOntologyDAOImpl extends GenericDao
 		
 	}
 
-	public void addTransportersAnnotationMetabolitesOntology(TransportersAnnotationMetabolitesOntology TransportersAnnotationMetabolitesOntology) {
-		super.save(TransportersAnnotationMetabolitesOntology);
+	public void addTransportersAnnotationMetabolitesOntology(TransportersAnnotationMetabolitesOntology transportersAnnotationMetabolitesOntology) {
+		super.save(transportersAnnotationMetabolitesOntology);
 		
 	}
 
-	public void addTTransportersAnnotationMetabolitesOntologyList(List<TransportersAnnotationMetabolitesOntology> TransportersAnnotationMetabolitesOntologyList) {
-		for (TransportersAnnotationMetabolitesOntology TransportersAnnotationMetabolitesOntology: TransportersAnnotationMetabolitesOntologyList) {
-			this.addTransportersAnnotationMetabolitesOntology(TransportersAnnotationMetabolitesOntology);
+	public void addTTransportersAnnotationMetabolitesOntologyList(List<TransportersAnnotationMetabolitesOntology> transportersAnnotationMetabolitesOntologyList) {
+		for (TransportersAnnotationMetabolitesOntology transportersAnnotationMetabolitesOntology: transportersAnnotationMetabolitesOntologyList) {
+			this.addTransportersAnnotationMetabolitesOntology(transportersAnnotationMetabolitesOntology);
 		}
 		
 	}
@@ -35,27 +35,27 @@ public class TransportersAnnotationMetabolitesOntologyDAOImpl extends GenericDao
 		return super.findById(id);
 	}
 
-	public void removeTransportersAnnotationMetabolitesOntology(TransportersAnnotationMetabolitesOntology TransportersAnnotationMetabolitesOntology) {
-		super.delete(TransportersAnnotationMetabolitesOntology);
+	public void removeTransportersAnnotationMetabolitesOntology(TransportersAnnotationMetabolitesOntology transportersAnnotationMetabolitesOntology) {
+		super.delete(transportersAnnotationMetabolitesOntology);
 		
 	}
 
-	public void removeTransportersAnnotationMetabolitesOntologyList(List<TransportersAnnotationMetabolitesOntology> TransportersAnnotationMetabolitesOntologyList) {
-		for (TransportersAnnotationMetabolitesOntology TransportersAnnotationMetabolitesOntology: TransportersAnnotationMetabolitesOntologyList) {
-			this.removeTransportersAnnotationMetabolitesOntology(TransportersAnnotationMetabolitesOntology);
+	public void removeTransportersAnnotationMetabolitesOntologyList(List<TransportersAnnotationMetabolitesOntology> transportersAnnotationMetabolitesOntologyList) {
+		for (TransportersAnnotationMetabolitesOntology transportersAnnotationMetabolitesOntology: transportersAnnotationMetabolitesOntologyList) {
+			this.removeTransportersAnnotationMetabolitesOntology(transportersAnnotationMetabolitesOntology);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationMetabolitesOntologyList(List<TransportersAnnotationMetabolitesOntology> TransportersAnnotationMetabolitesOntologyList) {
-		for (TransportersAnnotationMetabolitesOntology TransportersAnnotationMetabolitesOntology: TransportersAnnotationMetabolitesOntologyList) {
-			this.update(TransportersAnnotationMetabolitesOntology);
+	public void updateTransportersAnnotationMetabolitesOntologyList(List<TransportersAnnotationMetabolitesOntology> transportersAnnotationMetabolitesOntologyList) {
+		for (TransportersAnnotationMetabolitesOntology transportersAnnotationMetabolitesOntology: transportersAnnotationMetabolitesOntologyList) {
+			this.update(transportersAnnotationMetabolitesOntology);
 		}
 		
 	}
 
-	public void updateTransportersAnnotationMetabolitesOntology(TransportersAnnotationMetabolitesOntology TransportersAnnotationMetabolitesOntology) {
-		super.update(TransportersAnnotationMetabolitesOntology);
+	public void updateTransportersAnnotationMetabolitesOntology(TransportersAnnotationMetabolitesOntology transportersAnnotationMetabolitesOntology) {
+		super.update(transportersAnnotationMetabolitesOntology);
 		
 	}
 

@@ -32,6 +32,10 @@ public class GenericDaoImpl<T> implements IGenericDao<T> {
 			this.klass = klass;
 		}
 
+		public SessionFactory getSessionFactory() {
+			return sessionFactory;
+		}
+
 		public T findById(Serializable id) {
 			T T = (T) sessionFactory.getCurrentSession().get(klass, id);
 			return T;
